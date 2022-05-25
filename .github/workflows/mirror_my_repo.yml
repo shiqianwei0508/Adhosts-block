@@ -1,0 +1,30 @@
+name: MirrorThisRepo
+on:
+  schedule:
+    - cron: 45 * * * *
+
+jobs:
+  SyncToCoding:
+    runs-on: ubuntu-latest
+    name: sync code to coding.net
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - uses: shiqianwei0508/git-repo-sync-gitlab@v0.3.1
+      with:
+        target-url: ${{ secrets.CODING_ADHOST_URL }}
+        target-username: ${{ secrets.CODING_USERNAME }}
+        target-token: ${{ secrets.CODING_TOKEN }}
+  SyncToGitlab:
+    runs-on: ubuntu-latest
+    name: sync code to gitlab
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - uses: shiqianwei0508/git-repo-sync-gitlab@v0.3.1
+      with:
+        target-url: ${{ secrets.GITLAB_ADHOST_URL }}
+        target-username: ${{ secrets.GITLAB_USERNAME }}
+        target-token: ${{ secrets.GITLAB_TOKEN }}
