@@ -13,3 +13,6 @@
 
 # 小米search
 0.0.0.0 qsb.browser.miui.com
+
+# 阅读无效域名
+0.0.0.0 www.6mao.com
