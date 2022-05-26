@@ -22,8 +22,8 @@ jobs:
     - name: Commit files
       run: |
         git pull
-        git config --local user.email "m18610844053@163.com"
-        git config --local user.name "sqwei"
+        git config --local user.email ${{ secrets.MYEMAIL }}
+        git config --local user.name ${{ secrets.MYUSERNAME }}
         git commit -m "Update Hosts" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
