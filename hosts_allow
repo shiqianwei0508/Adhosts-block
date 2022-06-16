@@ -18,4 +18,6 @@ sdkconfig.ad.xiaomi.com
 
 
 # 皮皮虾无法访问问题
-dm.toutiao.com
+#dm.toutiao.com
+dig.bdurl.net
+ws.ribaoapi.com
