@@ -47,6 +47,9 @@ curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | 
 # 自己维护的域名白名单
 curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
+# keytoolazy
+curl -s https://keytoolazy.coding.net/p/hms-core/d/HMS-CORE/git/raw/master/other/%E6%8E%92%E9%99%A4%E5%88%97%E8%A1%A8.prop | sed "/#/d;s/ \{2,\}/ /g" >> wlist
+
 # 冷莫 hosts
 # curl -s https://file.trli.club/dns/ad-hosts.txt | sed "/==/d;/^$/d;1d;s/0.0.0.0 /127.0.0.1 /g;/^\:\|^\*/d" > $f
 # curl -s https://file.trli.club/dns/ad-domains.txt | sed "/^#/d" | awk '{print "127.0.0.1 "$0}' > $f
