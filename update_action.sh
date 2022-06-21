@@ -31,9 +31,9 @@ https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Regular%20Hosts.txt
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
-https://hblock.molinero.dev/hosts
-https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/hosts.txt
 EOF
+#https://hblock.molinero.dev/hosts
+#https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/hosts.txt
 #https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 #https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
 
