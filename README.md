@@ -23,7 +23,7 @@
 2. yhosts：https://github.com/VeleSila/yhosts   
 3. 大圣净化：https://github.com/jdlingyu/ad-wars 
 4. 1024_hosts：https://github.com/Goooler/1024_hosts   
-6. 小贝塔维护hosts：https://github.com/rentianyu/Ad-set-hosts   
+6. ~~小贝塔维护hosts：https://github.com/rentianyu/Ad-set-hosts~~   
 7. StevenBlack：https://github.com/StevenBlack/hosts   
 8. ilpl：https://github.com/ilpl/ad-hosts
 9. ~~iOSAdblockList：https://github.com/BlackJack8/iOSAdblockList~~

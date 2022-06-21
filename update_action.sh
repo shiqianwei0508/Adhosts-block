@@ -24,7 +24,6 @@ while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";do
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
-https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/xiaobeita/hosts
 https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/sqwei/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
