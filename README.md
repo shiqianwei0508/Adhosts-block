@@ -26,9 +26,10 @@
 6. 小贝塔维护hosts：https://github.com/rentianyu/Ad-set-hosts   
 7. StevenBlack：https://github.com/StevenBlack/hosts   
 8. ilpl：https://github.com/ilpl/ad-hosts
-9. iOSAdblockList：https://github.com/BlackJack8/iOSAdblockList
-10. NeoTeam https://neodev.team/host
+9. ~~iOSAdblockList：https://github.com/BlackJack8/iOSAdblockList~~
+10. NeoTeam https://github.com/neodevpro/neodevhost
 11. QuarkList https://github.com/francis-zhao/quarklist
 12. ~~GitHub520 https://github.com/521xueweihan/GitHub520~~
 13. ~~Cats-Team https://github.com/Cats-Team/AdRules~~
 14. ~~Hblock https://github.com/hectorm/hblock~~
+15. anti-AD https://github.com/privacy-protection-tools/anti-AD
