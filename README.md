@@ -30,5 +30,5 @@
 10. NeoTeam https://neodev.team/host
 11. QuarkList https://github.com/francis-zhao/quarklist
 12. GitHub520 https://github.com/521xueweihan/GitHub520
-13. Cats-Team https://github.com/Cats-Team/AdRules
+13. ~~Cats-Team https://github.com/Cats-Team/AdRules~~
 14. Hblock https://github.com/hectorm/hblock
