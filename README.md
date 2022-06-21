@@ -19,7 +19,7 @@
 
 ## 3. 在此致谢以下引用的hosts源
 
-1. 依然的爱：https://github.com/E7KMbb/AD-hosts   
+~~1. 依然的爱：https://github.com/E7KMbb/AD-hosts~~
 2. yhosts：https://github.com/VeleSila/yhosts   
 3. 大圣净化：https://github.com/jdlingyu/ad-wars 
 4. 1024_hosts：https://github.com/Goooler/1024_hosts   
