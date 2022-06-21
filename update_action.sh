@@ -66,9 +66,14 @@ sed -i "s/\s\|#.*//g" $t
 # 删除 127.0.0.1 、 0.0.0.0 、 空行、第一行
 sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
 
-curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
-sed -i "s/\s\|#.*//g" $t
+#curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
 
+while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";done<<EOF
+https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
+EOF
+
+
+sed -i "s/\s\|#.*//g" $t
 # 删除 . 或 * 开头的
 sed -i "/^\.\|^\*/d" $t
 
