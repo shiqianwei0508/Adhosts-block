@@ -36,8 +36,9 @@ EOF
 #https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 #https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
 
-# Github520 hosts
-curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
+# fast hosts
+# curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
+curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
 
 
 # EnergizedProtection 域名白名单
