@@ -20,6 +20,8 @@ manslaughter(){
 #curl -s https://gitee.com/qiusunshine233/hikerView/raw/master/ad_v2.txt >> $t
 #sed -i '/\(\/\|@\|\*\|^\.\|\:\)/d;s/^/127.0.0.1 /g' $t && echo "海阔影视 hosts 导入成功"
 
+
+# 导入hosts格式
 while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";done<<EOF
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
@@ -36,7 +38,7 @@ EOF
 #https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 #https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
 
-# fast hosts
+# 域名加速hosts
 # curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
 curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
 
@@ -68,6 +70,7 @@ sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
 
 #curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
 
+# 导入domain list格式
 while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";done<<EOF
 https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
 EOF
