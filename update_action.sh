@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -x
 # 下载去广告hosts合并并去重
 
 t=host       hn=hosts       an=adguard
@@ -97,9 +98,6 @@ sed -i "/^127.0.0.1$/d;/^0.0.0.0$/d;/^\s*$/d" $t
 #(echo -e $statement && sed "s/^/127.0.0.1 /g" $t) > $hn
 
 # 配置域名白名单
-#for i in `cat wlist1`;do
-#   sed -i "/$i/d" $hn
-#done
 for i in `cat wlist`;do
    sed -i "/0.0.0.0 $i$/d" $hn
 done
