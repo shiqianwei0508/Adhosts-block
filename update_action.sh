@@ -106,7 +106,7 @@ done
 
 
 # 获得标准 adguard 版规则
-# adguard $t > $an
+adguard $t > $an
 
 
 # 获得拓展去重版 host
