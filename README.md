@@ -33,3 +33,4 @@
 13. ~~Cats-Team https://github.com/Cats-Team/AdRules~~
 14. ~~Hblock https://github.com/hectorm/hblock~~
 15. anti-AD https://github.com/privacy-protection-tools/anti-AD
+16. adblock-nocoin-list https://github.com/hoshsadiq/adblock-nocoin-list
