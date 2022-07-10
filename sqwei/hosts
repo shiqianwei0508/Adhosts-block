@@ -16,3 +16,9 @@
 
 # 阅读无效域名
 0.0.0.0 www.6mao.com
+
+# 有道云笔记
+0.0.0.0 errlog.umeng.com
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 hubble.netease.com
+0.0.0.0 silk.lx.netease.com
