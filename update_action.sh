@@ -31,13 +31,13 @@ https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 EOF
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 #https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 #https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Regular%20Hosts.txt
 #https://hblock.molinero.dev/hosts
 #https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/hosts.txt
-#https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 #https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
 
 # 域名加速hosts
