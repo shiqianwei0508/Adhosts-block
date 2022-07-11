@@ -80,7 +80,7 @@ EOF
 
 sed -i "s/\s\|#.*//g" $t
 # 删除 . 或 * 或||开头的
-sed -i "/^\.\|^\*\|^\|/d" $t
+sed -i "/^\.\|^\*\|^|/d" $t
 
 # 使用声明
 statement="# 更新时间：$(date '+%Y-%m-%d %T')\n# 开源地址：https://github.com/shiqianwei0508/Adhosts-block.git\n# 严正声明：仅供自用，请勿商用\n\n"
