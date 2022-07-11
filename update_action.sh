@@ -24,15 +24,15 @@ manslaughter(){
 
 # 导入hosts格式
 while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";done<<EOF
-https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
-https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
 https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/sqwei/hosts
-https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 EOF
+#https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
+#https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
+#https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+#https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 #https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 #https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Regular%20Hosts.txt
