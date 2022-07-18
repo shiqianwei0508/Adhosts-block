@@ -22,3 +22,14 @@
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 hubble.netease.com
 0.0.0.0 silk.lx.netease.com
+
+# 小米云控
+0.0.0.0 jupiter.rus.sys.miui.com
+0.0.0.0 jupiter.intl.sys.miui.com
+0.0.0.0 jupiter.sys.miui.com
+0.0.0.0 preview-jupiter.sys.miui.com
+0.0.0.0 rom.pt.miui.srv
+0.0.0.0 cc.sys.intl.xiaomi.com
+0.0.0.0 ccc.sys.intl.xiaomi.com
+0.0.0.0 cc.sys.miui.com
+0.0.0.0 ccc.sys.miui.com
