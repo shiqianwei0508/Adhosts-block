@@ -1,4 +1,4 @@
-# 更新时间：2022-08-09 13:51:53
+# 更新时间：2022-08-09 13:55:48
 # 开源地址：https://github.com/shiqianwei0508/Adhosts-block.git
 # 严正声明：仅供自用，请勿商用
 
@@ -15649,7 +15649,6 @@
 0.0.0.0 api.fusepowered.com
 0.0.0.0 api.fw.tv
 0.0.0.0 api.fyber.com
-0.0.0.0 api.g.micloud.xiaomi.net
 0.0.0.0 api.g1.junfull.com
 0.0.0.0 api.g2.junfull.com
 0.0.0.0 api.gameads.io
@@ -33411,7 +33410,6 @@
 0.0.0.0 data.reachplc.com
 0.0.0.0 data.reactandshare.com
 0.0.0.0 data.sec.intl.miui.com
-0.0.0.0 data.sec.miui.com
 0.0.0.0 data.segugio.it
 0.0.0.0 data.sharethis.com
 0.0.0.0 data.shipboardserviceberrysiltstone.info
@@ -61766,7 +61764,6 @@
 0.0.0.0 logstat.t.sfht.com
 0.0.0.0 logtake.weidian.com
 0.0.0.0 logua.com
-0.0.0.0 logupdate.avlyun.sec.miui.com
 0.0.0.0 logv14.xiti.com
 0.0.0.0 logv17.xiti.com
 0.0.0.0 logv18.xiti.com
