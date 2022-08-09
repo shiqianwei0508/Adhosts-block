@@ -32,3 +32,9 @@ statusapi.micloud.xiaomi.net
 # 搜狗输入法
 input.shouji.sogou.com
 worldwide.sogou.com
+
+
+# 小米
+api.g.micloud.xiaomi.net
+data.sec.miui.com
+logupdate.avlyun.sec.miui.com
