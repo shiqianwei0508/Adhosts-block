@@ -54,6 +54,10 @@ curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/ho
 # keytoolazy
 curl -s https://keytoolazy.coding.net/p/hms-core/d/HMS-CORE/git/raw/master/ads/allow.prop | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
+
+# 泛域名白名单
+curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
+
 # 冷莫 hosts
 # curl -s https://file.trli.club/dns/ad-hosts.txt | sed "/==/d;/^$/d;1d;s/0.0.0.0 /127.0.0.1 /g;/^\:\|^\*/d" > $f
 # curl -s https://file.trli.club/dns/ad-domains.txt | sed "/^#/d" | awk '{print "127.0.0.1 "$0}' > $f
@@ -100,6 +104,10 @@ sed -i "/^127.0.0.1$/d;/^0.0.0.0$/d;/^\s*$/d" $t
 # 配置域名白名单
 for i in `cat wlist`;do
    sed -i "/0.0.0.0 $i$/d" $hn
+done
+
+for i in `cat g_wlist`;do
+   sed -i "/0.0.0.0 .*.$i$/d" $hn
 done
 
 
