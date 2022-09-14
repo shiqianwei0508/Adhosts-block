@@ -1,4 +1,4 @@
-# 更新时间：2022-09-14 20:34:26
+# 更新时间：2022-09-15 00:23:35
 # 开源地址：https://github.com/shiqianwei0508/Adhosts-block.git
 # 严正声明：仅供自用，请勿商用
 
@@ -16777,6 +16777,7 @@
 0.0.0.0 cdn.teads.tv.edgekey.net
 0.0.0.0 cdn.tianmidian.com
 0.0.0.0 cdn.tinglian.com
+0.0.0.0 cdn.tinypass.com
 0.0.0.0 cdn.tpdads.com
 0.0.0.0 cdn.trafficexchangelist.com
 0.0.0.0 cdn.trafficforce.com
@@ -16792,6 +16793,7 @@
 0.0.0.0 cdn.usebutton.com
 0.0.0.0 cdn.usefathom.com
 0.0.0.0 cdn.vamaker.com
+0.0.0.0 cdn.vidible.tv
 0.0.0.0 cdn.viewdeos.com
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.vue-js.cyou
@@ -16837,6 +16839,7 @@
 0.0.0.0 cdn3.doubleverify.com
 0.0.0.0 cdn3.hentaihand.com
 0.0.0.0 cdn3.mancdn88.com
+0.0.0.0 cdn3.optimizely.com
 0.0.0.0 cdn4.buysellads.net
 0.0.0.0 cdn4.crispadvertising.com
 0.0.0.0 cdn4.mxpnl.com
@@ -17574,6 +17577,7 @@
 0.0.0.0 choice.microsoft.com
 0.0.0.0 choice.microsoft.com.nsatc.net
 0.0.0.0 choices.trustarc.com
+0.0.0.0 choices.truste.com
 0.0.0.0 chokefirmbeauty.com
 0.0.0.0 choksail.com
 0.0.0.0 chokupsupto.com
@@ -22748,6 +22752,8 @@
 0.0.0.0 deviatemysticallocking.com
 0.0.0.0 device-api.asnapieu.com
 0.0.0.0 device-api.urbanairship.com
+0.0.0.0 device-metrics-us-2.amazon.com
+0.0.0.0 device-metrics-us.amazon.com
 0.0.0.0 device.4seeresults.com
 0.0.0.0 device.fishmobi.com
 0.0.0.0 device.marketingcloudapis.com
@@ -23534,6 +23540,7 @@
 0.0.0.0 dlfvgndsdfsn.com
 0.0.0.0 dlhyfl.cn
 0.0.0.0 dlhygj.com
+0.0.0.0 dlied6.qq.com
 0.0.0.0 dliketobe.co
 0.0.0.0 dlimg.lovfp.com
 0.0.0.0 dlkfm8bqz0bpx.cloudfront.net
@@ -27522,6 +27529,7 @@
 0.0.0.0 experianmarketingservices.digital
 0.0.0.0 experianmatch.info
 0.0.0.0 experience.contextly.com
+0.0.0.0 experience.tinypass.com
 0.0.0.0 experienceeggs.com
 0.0.0.0 experiment.appadhoc.com
 0.0.0.0 expertcamomile.com
@@ -28758,6 +28766,7 @@
 0.0.0.0 fls-eu.amazon-adsystem.com
 0.0.0.0 fls-fe.amazon-adsystem.com
 0.0.0.0 fls-na.amazon-adsystem.com
+0.0.0.0 fls-na.amazon.com
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 flsfzr.cn
 0.0.0.0 flstudiochina.com
@@ -35123,6 +35132,7 @@
 0.0.0.0 img1.18183.com
 0.0.0.0 img1.eywdf.com
 0.0.0.0 img1.g.pptv.com
+0.0.0.0 img1.gtimg.com
 0.0.0.0 img1.ijinshan.com
 0.0.0.0 img1.jintang114.org
 0.0.0.0 img1.km.com
@@ -36185,6 +36195,7 @@
 0.0.0.0 ipinfo.info
 0.0.0.0 ipinyou.com
 0.0.0.0 ipinyou.com.cn
+0.0.0.0 ipla.hit.stat24.com
 0.0.0.0 iplist.cc
 0.0.0.0 iplocationtools.com
 0.0.0.0 ipm.atm.cp31.ott.cibntv.net
@@ -36754,6 +36765,7 @@
 0.0.0.0 javbucks.com
 0.0.0.0 javbuzz.com
 0.0.0.0 javgg.eu
+0.0.0.0 javhd.com
 0.0.0.0 javjav1.buzz
 0.0.0.0 javtgudy.xyz
 0.0.0.0 javvvvvv.xyz
@@ -41407,6 +41419,7 @@
 0.0.0.0 lps.qantas.com
 0.0.0.0 lpsgc.cn
 0.0.0.0 lpsxssm.com
+0.0.0.0 lptag.liveperson.net
 0.0.0.0 lptssbs.cn
 0.0.0.0 lpuhcdnyejf.com
 0.0.0.0 lpw80d.online
@@ -46149,6 +46162,7 @@
 0.0.0.0 mpro.baidu.com
 0.0.0.0 mproxy.banner.linksynergy.com
 0.0.0.0 mps-gba.de
+0.0.0.0 mps.nbcuni.com
 0.0.0.0 mps.weekslw.com
 0.0.0.0 mps.wenkuzu.com
 0.0.0.0 mps.yuwenba.cn
@@ -57120,6 +57134,7 @@
 0.0.0.0 s.zgclmw.cn
 0.0.0.0 s.zixuntop.com
 0.0.0.0 s.zjhoudao.com
+0.0.0.0 s.zkcdn.net
 0.0.0.0 s.zlongad.com
 0.0.0.0 s0.beyondonline.nl
 0.0.0.0 s0.doubleclick.net
@@ -58665,6 +58680,7 @@
 0.0.0.0 secure-asia.imrworldwide.com
 0.0.0.0 secure-assets.rubiconproject.com
 0.0.0.0 secure-au.imrworldwide.com
+0.0.0.0 secure-cdn.mplxtms.com
 0.0.0.0 secure-cert.imrworldwide.com
 0.0.0.0 secure-chn.imrworldwide.com
 0.0.0.0 secure-dcr-cert.imrworldwide.com
@@ -63630,6 +63646,7 @@
 0.0.0.0 staticiv.com
 0.0.0.0 staticjs.cn
 0.0.0.0 statics-marketingsites-eus-ms-com.akamaized.net
+0.0.0.0 statics-marketingsites-neu-ms-com.akamaized.net
 0.0.0.0 statics.3987.com
 0.0.0.0 statics.9669.com
 0.0.0.0 statics.jialuode.com
@@ -74069,6 +74086,7 @@
 0.0.0.0 widespace.com
 0.0.0.0 widespreadgabblewear.com
 0.0.0.0 widespreadglamour.com
+0.0.0.0 widget-cdn.rpxnow.com
 0.0.0.0 widget-pixels.outbrain.com
 0.0.0.0 widget.adviceiq.com
 0.0.0.0 widget.am5.vip.prod.criteo.com
