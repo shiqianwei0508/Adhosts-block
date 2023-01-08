@@ -1,4 +1,4 @@
-# 更新时间：2023-01-08 09:10:17
+# 更新时间：2023-01-08 12:15:57
 # 开源地址：https://github.com/shiqianwei0508/Adhosts-block.git
 # 严正声明：仅供自用，请勿商用
 
@@ -6408,6 +6408,7 @@
 0.0.0.0 adobeanalytics.danmurphys.com.au
 0.0.0.0 adobeanalytics.easi.com
 0.0.0.0 adobeanalytics.geico.com
+0.0.0.0 adobeanalytics.gem
 0.0.0.0 adobeanalytics.medline.com
 0.0.0.0 adobeanalytics.mlaglobal.com
 0.0.0.0 adobeanalytics.populusgroup.com
@@ -15387,7 +15388,6 @@
 0.0.0.0 cctrkom.creditcards.com
 0.0.0.0 cctv.adsunion.com
 0.0.0.0 cctvgb.com.cn
-0.0.0.0 cctvgb.com.cnclinic.com
 0.0.0.0 ccuyuna.cn
 0.0.0.0 ccv.jiumishow.com
 0.0.0.0 ccv.ybt999.com
@@ -52384,7 +52384,6 @@
 0.0.0.0 sa8.tuisong.baidu.com
 0.0.0.0 saa-aem.hamamatsu.com
 0.0.0.0 saa.247sports.com
-0.0.0.0 saa.cbm
 0.0.0.0 saa.cbs.com
 0.0.0.0 saa.cbsi.com
 0.0.0.0 saa.cbsnews.com
@@ -58555,7 +58554,6 @@
 0.0.0.0 stats.homestow.com
 0.0.0.0 stats.hostfactor.io
 0.0.0.0 stats.hpz-scharnhausen.de
-0.0.0.0 stats.htmlcsstoimage.coe
 0.0.0.0 stats.htmlcsstoimage.com
 0.0.0.0 stats.htp.org
 0.0.0.0 stats.hugoreeves.com
