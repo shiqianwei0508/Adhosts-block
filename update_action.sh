@@ -43,6 +43,7 @@ EOF
 # 域名加速hosts
 # curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
 curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
+curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
 
 
 # EnergizedProtection 域名白名单

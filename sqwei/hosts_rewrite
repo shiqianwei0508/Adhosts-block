@@ -1,0 +1,8 @@
+# Miui云控
+# 中国服务器重定向为俄罗斯服务器
+# 118.26.253.146 中国服务器地址
+107.155.53.1 jupiter.sys.miui.com
+107.155.53.1 preview-jupiter.sys.miui.com
+# 性能服务器
+107.155.53.1 jupiter.india.sys.miui.com
+107.155.53.1 preview-jupiter.india.sys.miui.com
