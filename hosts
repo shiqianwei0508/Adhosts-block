@@ -1,4 +1,4 @@
-# 更新时间：2023-01-09 08:29:25
+# 更新时间：2023-01-09 08:37:29
 # 开源地址：https://github.com/shiqianwei0508/Adhosts-block.git
 # 严正声明：仅供自用，请勿商用
 
@@ -73299,3 +73299,7 @@
 2600:9000:2073:7e00:c:174a:c400:93a1 api.themoviedb.org
 
 
+107.155.53.1 jupiter.sys.miui.com
+107.155.53.1 preview-jupiter.sys.miui.com
+107.155.53.1 jupiter.india.sys.miui.com
+107.155.53.1 preview-jupiter.india.sys.miui.com
