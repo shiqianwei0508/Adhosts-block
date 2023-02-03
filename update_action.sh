@@ -137,5 +137,5 @@ done
 
 #rm $t $f gh
 #rm $t $f
-#rm $t gh wlist g_wlist
-rm $t gh
+rm $t gh wlist g_wlist
+#rm $t gh
