@@ -53,7 +53,7 @@ curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/sq
 curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
 # keytoolazy
-curl -s https://keytoolazy.coding.net/p/hms-core/d/HMS-CORE/git/raw/master/ads/allow.prop | sed "/#/d;s/ \{2,\}/ /g" >> wlist
+#curl -s https://keytoolazy.coding.net/p/hms-core/d/HMS-CORE/git/raw/master/ads/allow.prop | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
 
 # 泛域名白名单
@@ -137,4 +137,5 @@ done
 
 #rm $t $f gh
 #rm $t $f
-rm $t gh wlist g_wlist
+#rm $t gh wlist g_wlist
+rm $t gh
