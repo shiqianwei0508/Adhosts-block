@@ -55,8 +55,8 @@
 
 
 # 20230206
-errnewlog.umeng.com
-utoken.umeng.com
+0.0.0.0 errnewlog.umeng.com
+0.0.0.0 utoken.umeng.com
 
-gungnir.xiaojukeji.com
-tnc3-alisc1.zijieapi.com
+0.0.0.0 gungnir.xiaojukeji.com
+0.0.0.0 tnc3-alisc1.zijieapi.com
