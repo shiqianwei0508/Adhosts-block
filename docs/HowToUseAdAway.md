@@ -101,5 +101,5 @@ If you want to back up your AdAway settings or transfer them to a new device, yo
 
 
 -----------------------------------------------
-	**-----------------------------------This Answer is From ChatGPT**
+	-----------------------------------This Answer is From ChatGPT--------------------------------
 -----------------------------------------------
