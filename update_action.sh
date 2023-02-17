@@ -89,7 +89,7 @@ sed -i "s/\s\|#.*//g" $t
 sed -i "/^\.\|^\*\|^|/d" $t
 
 # 使用声明
-statement="# 更新时间：$(date '+%Y-%m-%d %T')\n# 开源地址：https://github.com/shiqianwei0508/Adhosts-block.git\n# 严正声明：仅供自用，请勿商用\n\n"
+statement="# 更新时间：$(date '+%Y-%m-%d %T')\n# 开源地址：https://gitlab.com/rainmor/Adhosts-block.git\n# 严正声明：仅供自用，请勿商用\n\n"
 
 # 获得标准去重版 host
 sort -u $t -o $t
