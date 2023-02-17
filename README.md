@@ -11,6 +11,7 @@
 
 - 安卓直接替换`/system/etc/hosts`，或用 `Magisk` 模块刷入
 - 电脑勿用，`hosts` 文件过大会造成电脑卡顿
+- [Adaway使用方法参考文档](docs/HowToUseAdAway.md)
 
 
 |  Gitlab | Github | Gitee
