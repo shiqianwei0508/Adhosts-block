@@ -94,3 +94,12 @@ If you want to back up your AdAway settings or transfer them to a new device, yo
 6. Open AdAway and tap the three-dot menu in the top right corner.
 7. Select "Settings" from the menu.
 8. Tap "Import settings" and select the file you exported earlier.
+
+
+
+
+
+
+-----------------------------------------------
+	**-----------------------------------This Answer is From ChatGPT**
+-----------------------------------------------
