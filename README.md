@@ -22,9 +22,8 @@
 - 大圣净化：https://github.com/jdlingyu/ad-wars 
 - ~~StevenBlack：https://github.com/StevenBlack/hosts~~   
 - ilpl：https://github.com/ilpl/ad-hosts
-- ~~NeoTeam https://github.com/neodevpro/neodevhost~~
+- NeoTeam https://github.com/neodevpro/neodevhost
 - QuarkList https://github.com/francis-zhao/quarklist
 - Cats-Team https://github.com/Cats-Team/AdRules
-- ~~Hblock https://github.com/hectorm/hblock~~
 - anti-AD https://github.com/privacy-protection-tools/anti-AD
 - adblock-nocoin-list https://github.com/hoshsadiq/adblock-nocoin-list
