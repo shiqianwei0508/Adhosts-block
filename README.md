@@ -13,9 +13,9 @@
 - 电脑勿用，`hosts` 文件过大会造成电脑卡顿
 
 
-|        | hosts                                                        |  Gitlab | Github | Gitee
+|  Gitlab | Github | Gitee
 | ------ | ------------------------------------------------------------ |-|-|-|
-| 标准版 | [Gitlab镜像](https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts) | [Github版](https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts) | [Gitee镜像](https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts) | 
+| [Gitlab版本hosts](https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts) | [Github版](https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts) | [Gitee镜像](https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts) | 
 
 ## 3. 在此致谢以下引用的hosts源
 
