@@ -19,18 +19,12 @@
 
 ## 3. 在此致谢以下引用的hosts源
 
-1. ~~依然的爱：https://github.com/E7KMbb/AD-hosts~~
-2. ~~yhosts：https://github.com/VeleSila/yhosts~~   
-3. ~~大圣净化：https://github.com/jdlingyu/ad-wars~~ 
-4. ~~1024_hosts：https://github.com/Goooler/1024_hosts~~   
-6. ~~小贝塔维护hosts：https://github.com/rentianyu/Ad-set-hosts~~   
-7. ~~StevenBlack：https://github.com/StevenBlack/hosts~~   
-8. ~~ilpl：https://github.com/ilpl/ad-hosts~~
-9. ~~iOSAdblockList：https://github.com/BlackJack8/iOSAdblockList~~
-10. ~~NeoTeam https://github.com/neodevpro/neodevhost~~
-11. QuarkList https://github.com/francis-zhao/quarklist
-12. ~~GitHub520 https://github.com/521xueweihan/GitHub520~~
-13. Cats-Team https://github.com/Cats-Team/AdRules
-14. ~~Hblock https://github.com/hectorm/hblock~~
-15. anti-AD https://github.com/privacy-protection-tools/anti-AD
-16. adblock-nocoin-list https://github.com/hoshsadiq/adblock-nocoin-list
+- 大圣净化：https://github.com/jdlingyu/ad-wars 
+- ~~StevenBlack：https://github.com/StevenBlack/hosts~~   
+- ilpl：https://github.com/ilpl/ad-hosts
+- ~~NeoTeam https://github.com/neodevpro/neodevhost~~
+- QuarkList https://github.com/francis-zhao/quarklist
+- Cats-Team https://github.com/Cats-Team/AdRules
+- ~~Hblock https://github.com/hectorm/hblock~~
+- anti-AD https://github.com/privacy-protection-tools/anti-AD
+- adblock-nocoin-list https://github.com/hoshsadiq/adblock-nocoin-list
