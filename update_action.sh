@@ -24,7 +24,7 @@ manslaughter(){
 
 # 导入hosts格式
 while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";done<<EOF
-https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/sqwei/hosts
+https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts
 https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
@@ -43,21 +43,21 @@ EOF
 # 域名加速hosts
 # curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
 curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
-curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
+curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
 
 
 # EnergizedProtection 域名白名单
 #curl -s https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt | sed "/#/d;s/ \{2,\}/ /g" > wlist
 
 # 自己维护的域名白名单
-curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
+curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
 # keytoolazy
 #curl -s https://keytoolazy.coding.net/p/hms-core/d/HMS-CORE/git/raw/master/ads/allow.prop | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
 
 # 泛域名白名单
-curl -s https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
+curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
 
 # 冷莫 hosts
 # curl -s https://file.trli.club/dns/ad-hosts.txt | sed "/==/d;/^$/d;1d;s/0.0.0.0 /127.0.0.1 /g;/^\:\|^\*/d" > $f
