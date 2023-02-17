@@ -15,7 +15,7 @@
 
 |        | hosts                                                        | 
 | ------ | ------------------------------------------------------------ |
-| 标准版 | [Github版](https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts)、[Gitee镜像](https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts)、[Coding镜像](https://serverless-810704223.coding.net/p/adblock_hosts/d/Adhosts-block/git/raw/master/hosts)、[Gitlab镜像](https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts) | 
+| 标准版 | [Github版](https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts)、[Gitee镜像](https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts)、[Gitlab镜像](https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts) | 
 
 ## 3. 在此致谢以下引用的hosts源
 
