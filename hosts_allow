@@ -61,3 +61,14 @@ amdcopen.m.taobao.com
 
 # 头条搜索
 is.snssdk.com
+
+
+# 小米推送域名
+api.xmpush.xiaomi.com
+feedback.xmpush.xiaomi.com
+stats.xmpush.xiaomi.com
+long.new.xmpush.xiaomi.com
+api.push.global.xiaomi.com
+feedback.push.global.xiaomi.com
+long.new.push.global.xiaomi.com
+
