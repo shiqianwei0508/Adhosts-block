@@ -62,3 +62,6 @@
 
 # 高通
 0.0.0.0 izatcloud.net
+
+# sentry.io
+#0.0.0.0 sentry.io
