@@ -3,6 +3,9 @@ set -e
 set -x
 # 下载去广告hosts合并并去重
 
+# 开启curl代理
+mv ~/.curlrc.bak ~/.curlrc
+
 t=host       hn=hosts       an=adguard
 f=host-full  hf=hosts-full  af=adguard-full
 
@@ -142,3 +145,6 @@ done
 #rm $t $f
 rm $t gh wlist g_wlist
 #rm $t gh
+
+# 关闭curl代理
+mv ~/.curlrc ~/.curlrc.bak
