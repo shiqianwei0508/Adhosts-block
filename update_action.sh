@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+#set -e
 set -x
 # 下载去广告hosts合并并去重
 
