@@ -47,8 +47,8 @@ EOF
 #https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
 
 # 域名加速hosts
-# curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
-curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
+curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
+#curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
 curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
 
 
