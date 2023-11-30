@@ -33,3 +33,4 @@ QuarkList | https://github.com/francis-zhao/quarklist
 Cats-Team | https://github.com/Cats-Team/AdRules
 anti-AD | https://github.com/privacy-protection-tools/anti-AD
 adblock-nocoin-list | https://github.com/hoshsadiq/adblock-nocoin-list
+hBlock |https://hblock.molinero.dev/hosts 
