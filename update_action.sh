@@ -36,8 +36,8 @@ https://raw.githubusercontent.com/jdlingyu/ad-wars/master/sha_ad_hosts
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts
-https://hosts.ubuntu101.co.za/hosts
 EOF
+#https://hosts.ubuntu101.co.za/hosts
 #https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 #https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
 #https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
