@@ -96,7 +96,7 @@ sed -i "s/\s\|#.*//g" $t
 sed -i "/^\.\|^\*\|^|/d" $t
 
 # 使用声明
-statement="# 更新时间：$(date '+%Y-%m-%d %T')\n# 开源地址：https://gitlab.com/rainmor/Adhosts-block.git\n# 严正声明：仅供自用，请勿商用\n\n"
+statement="# 更新时间：$(date '+%Y-%m-%d %T')\n# hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts\n# 邮箱： sqwei2012@gmail.com\n# 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！\n\n"
 
 # 获得标准去重版 host
 sort -u $t -o $t
