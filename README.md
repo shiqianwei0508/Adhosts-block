@@ -14,9 +14,9 @@
 - [Adaway使用方法参考文档](docs/HowToUseAdAway.md)
 
 
-|  Gitlab | Github | Gitee
-|-|-|-|
-| [Gitlab版本hosts](https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts) | [Github版](https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts) | [Gitee镜像](https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts) | 
+|  Gitlab | Github |
+|-|-|
+| [Gitlab版本hosts](https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts) | [Github版](https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts) | 
 
 - CN用户推荐使用*Gitlab*地址
 
