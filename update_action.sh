@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-#set -e
-set -x
+set -e
+#set -x
 # 下载去广告hosts合并并去重
 
 # 开启curl代理
