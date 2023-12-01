@@ -27,7 +27,7 @@ manslaughter(){
 
 
 # 导入hosts格式
-while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";done<<EOF
+while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
 https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts
 https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
@@ -73,8 +73,9 @@ curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow_g | se
 # curl -s https://file.trli.club/dns/ad-domains.txt | sed "/^#/d" | awk '{print "127.0.0.1 "$0}' > $f
 
 # 转换换行符
-dos2unix *
-dos2unix */*
+#dos2unix *
+#dos2unix */*
+dos2unix $t gh wlist g_wlist
 
 # 保留必要 host
 # 只保留 127、0 开头的行
@@ -87,10 +88,11 @@ sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
 #curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
 
 # 导入domain list格式
-while read i;do curl -s "$i">>$t&&echo "下载成功"||echo "$i 下载失败";done<<EOF
+while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
 https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
 EOF
 
+dos2unix $t
 
 sed -i "s/\s\|#.*//g" $t
 # 删除 . 或 * 或||开头的
