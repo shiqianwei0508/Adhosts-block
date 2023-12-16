@@ -3,8 +3,14 @@ cnbj1.fds.api.xiaomi.com
 cdn.cnbj1.fds.api.mi-img.com
 api.vip.miui.com
 
-# twitter短域名
+# 小米社区
+web.vip.miui.com
+
+# twitter
 t.co
+api.twitter.com
+pbs.twimg.com
+abs.twimg.com
 
 # 京东试用
 wl.jd.com
