@@ -1,4 +1,3 @@
-
 ## 本项目fork自https://github.com/rentianyu/Ad-set-hosts
 
 ## 1. 简介
@@ -9,14 +8,14 @@
 
 ## 2. 使用方法与版本介绍
 
-- 安卓直接替换`/system/etc/hosts`，或用 `Magisk` 模块刷入
+- 安卓直接替换`/system/etc/hosts`，或用 `Magisk` 模块刷入,推荐使用Adaway工具 [Adaway使用方法参考文档](docs/HowToUseAdAway.md)
 - 电脑勿用，`hosts` 文件过大会造成电脑卡顿
-- [Adaway使用方法参考文档](docs/HowToUseAdAway.md)
 
 
 |  Gitlab | Github |
 |-|-|
 | [Gitlab版本hosts](https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts) | [Github版](https://raw.githubusercontent.com/shiqianwei0508/Adhosts-block/master/hosts) | 
+
 
 - CN用户推荐使用*Gitlab*地址
 
@@ -34,3 +33,5 @@ Cats-Team | https://github.com/Cats-Team/AdRules
 anti-AD | https://github.com/privacy-protection-tools/anti-AD
 adblock-nocoin-list | https://github.com/hoshsadiq/adblock-nocoin-list
 hBlock |https://hblock.molinero.dev/hosts 
+oisd | https://oisd.nl/
+10007 | https://github.com/lingeringsound/10007
