@@ -47,6 +47,8 @@ https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts
 https://hblock.molinero.dev/hosts
+https://small.oisd.nl/hosts
+https://raw.githubusercontent.com/lingeringsound/10007/main/all
 EOF
 #https://hosts.ubuntu101.co.za/hosts
 #https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
