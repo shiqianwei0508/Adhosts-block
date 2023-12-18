@@ -25,7 +25,7 @@
 开源项目 | 网址
 -|-
 大圣净化 | https://github.com/jdlingyu/ad-wars 
-StevenBlack | https://github.com/StevenBlack/hosts
+~StevenBlack~ | ~https://github.com/StevenBlack/hosts~
 ilpl | https://github.com/ilpl/ad-hosts
 NeoTeam | https://github.com/neodevpro/neodevhost
 QuarkList | https://github.com/francis-zhao/quarklist
