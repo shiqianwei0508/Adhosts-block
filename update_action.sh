@@ -4,7 +4,17 @@ set -e
 # 下载去广告hosts合并并去重
 
 # 开启curl代理
-mv ~/.curlrc.bak ~/.curlrc
+#mv ~/.curlrc.bak ~/.curlrc
+if [ ! -f ~/.curlrc ]; then
+    if [ -f ~/.curlrc.bak ]; then
+        mv ~/.curlrc.bak ~/.curlrc
+        echo "Renamed ~/.curlrc.bak to ~/.curlrc"
+    else
+        echo "No ~/.curlrc.bak file found"
+    fi
+else
+    echo "File ~/.curlrc already exists"
+fi
 
 t=host       hn=hosts       an=adguard
 f=host-full  hf=hosts-full  af=adguard-full
