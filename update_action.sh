@@ -47,6 +47,7 @@ https://hblock.molinero.dev/hosts
 https://small.oisd.nl/hosts
 https://raw.githubusercontent.com/lingeringsound/10007/main/all
 EOF
+#https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 #https://hblock.molinero.dev/hosts
 #https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 #https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
