@@ -43,7 +43,6 @@ https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/sha_ad_hosts
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-https://hblock.molinero.dev/hosts
 https://small.oisd.nl/hosts
 https://raw.githubusercontent.com/lingeringsound/10007/main/all
 EOF
