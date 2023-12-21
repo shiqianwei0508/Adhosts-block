@@ -40,15 +40,16 @@ manslaughter(){
 while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
 https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts
 https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
-https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/sha_ad_hosts
 https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
 https://hblock.molinero.dev/hosts
 https://small.oisd.nl/hosts
 https://raw.githubusercontent.com/lingeringsound/10007/main/all
 EOF
+#https://hblock.molinero.dev/hosts
+#https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
+#https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 #https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts
 #https://hosts.ubuntu101.co.za/hosts
 #https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
