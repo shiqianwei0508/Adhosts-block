@@ -101,11 +101,11 @@ sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
 #curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
 
 # 导入domain list格式
-while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
-https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
-EOF
+#while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
+#https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
+#EOF
 
-dos2unix $t
+#dos2unix $t
 
 sed -i "s/\s\|#.*//g" $t
 # 删除 . 或 * 或||开头的
