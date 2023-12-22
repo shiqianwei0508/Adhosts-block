@@ -81,7 +81,8 @@ cat hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
 
 # 泛域名白名单
-curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
+#curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
+cat hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
 
 # 冷莫 hosts
 # curl -s https://file.trli.club/dns/ad-hosts.txt | sed "/==/d;/^$/d;1d;s/0.0.0.0 /127.0.0.1 /g;/^\:\|^\*/d" > $f
