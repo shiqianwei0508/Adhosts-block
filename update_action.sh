@@ -65,14 +65,16 @@ EOF
 curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
 curl -s https://gitlab.com/ineo6/hosts/-/raw/master/hosts | sed "/#/d;s/ \{2,\}/ /g" >> gh
 #curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
-curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
+#curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
+cat sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
 
 
 # EnergizedProtection 域名白名单
 #curl -s https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt | sed "/#/d;s/ \{2,\}/ /g" > wlist
 
 # 自己维护的域名白名单
-curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
+#curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
+cat hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
 
 # keytoolazy
 #curl -s https://keytoolazy.coding.net/p/hms-core/d/HMS-CORE/git/raw/master/ads/allow.prop | sed "/#/d;s/ \{2,\}/ /g" >> wlist
