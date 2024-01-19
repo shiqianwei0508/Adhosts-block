@@ -60,6 +60,8 @@ EOF
 #https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/hosts.txt
 #https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
 
+
+
 # 域名加速hosts
 curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
 curl -s https://gitlab.com/ineo6/hosts/-/raw/master/hosts | sed "/#/d;s/ \{2,\}/ /g" >> gh
@@ -90,7 +92,6 @@ cat hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
 # 转换换行符
 #dos2unix *
 #dos2unix */*
-dos2unix $t gh wlist g_wlist
 
 # 保留必要 host
 # 只保留 127、0 开头的行
@@ -101,7 +102,10 @@ sed -i "s/\s\|#.*//g" $t
 sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
 
 #curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
+curl -s https://bitbucket.org/hacamer/adrules/raw/main/mosdns_adrules.txt | sed 's/domain://' >> $t
 
+
+dos2unix $t gh wlist g_wlist
 # 导入domain list格式
 #while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
 #https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
