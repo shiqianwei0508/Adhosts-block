@@ -1,4 +1,4 @@
-# 更新时间：2024-06-04 15:23:18
+# 更新时间：2024-06-05 15:23:23
 # hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts
 # 邮箱： sqwei2012@gmail.com
 # 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！
@@ -2275,6 +2275,7 @@
 0.0.0.0 6279.seponews.com
 0.0.0.0 629de87520.f983cf2155.com
 0.0.0.0 62b70ac32d4614b.com
+0.0.0.0 62ca04e27a.com
 0.0.0.0 6300ffc51b.bad027ae34.com
 0.0.0.0 631c453c-68ac-46ab-857f-801e975e733a.snippet.antillephone.com
 0.0.0.0 631.dlads.cn
@@ -13223,7 +13224,6 @@
 0.0.0.0 ae13.br01.mad1.tfbnw.net
 0.0.0.0 ae13.pr01.iad3.tfbnw.net
 0.0.0.0 ae1a1e258b8b016.com
-0.0.0.0 ae2a82cf20.62ca04e27a.com
 0.0.0.0 ae4.ifeng.com
 0.0.0.0 ae888.mobi
 0.0.0.0 ae.ad.lgsmartad.com
@@ -20922,6 +20922,7 @@
 0.0.0.0 asr.ladsp.jp
 0.0.0.0 asrntiljustetyerec.info
 0.0.0.0 as.rollingstone.de
+0.0.0.0 asrop.xyz
 0.0.0.0 asrowjkagg.com
 0.0.0.0 a-srvjsr.media.net
 0.0.0.0 asryrzpu.xyz
@@ -21870,6 +21871,7 @@
 0.0.0.0 a.vserv.mobi
 0.0.0.0 avsvmcloud.com
 0.0.0.0 avthelkp.net
+0.0.0.0 a.vturb.net
 0.0.0.0 avtvcuofgz.com
 0.0.0.0 a.vtvdigital.vn
 0.0.0.0 avucugkccpavsxv.xyz
@@ -24655,6 +24657,7 @@
 0.0.0.0 bialithicket.com
 0.0.0.0 bi-analytics.cloudapp.net
 0.0.0.0 biancasunlit.com
+0.0.0.0 biancitiao.com
 0.0.0.0 biaseddocumentationacross.com
 0.0.0.0 biasedpushful.com
 0.0.0.0 bi.banggood.com
@@ -24896,6 +24899,8 @@
 0.0.0.0 bind-gateway.corp.appnexus.com
 0.0.0.0 bineukdwithmef.info
 0.0.0.0 bing001.shop
+0.0.0.0 bing003.shop
+0.0.0.0 bing005.shop
 0.0.0.0 bingads.com
 0.0.0.0 bingads.microsoft.com
 0.0.0.0 binggrondahlshop.com
@@ -29334,7 +29339,6 @@
 0.0.0.0 cdn.asdfix.com
 0.0.0.0 cdn.asdnow.xyz
 0.0.0.0 cdn-as.nxtck.com
-0.0.0.0 cdn.asrop.xyz
 0.0.0.0 cdn-assets.adspruce.com
 0.0.0.0 cdn.assets.craveonline.com
 0.0.0.0 cdn.at.atwola.com
@@ -32822,7 +32826,6 @@
 0.0.0.0 cmnepalslma.com
 0.0.0.0 c.mnjkw.cn
 0.0.0.0 cm.nordvpn.com
-0.0.0.0 cmoa.pro
 0.0.0.0 cmoboy.com
 0.0.0.0 cmon.congress.gov
 0.0.0.0 cmoney.money
@@ -35177,7 +35180,6 @@
 0.0.0.0 counter.webmedia.pl
 0.0.0.0 counter.web.money
 0.0.0.0 counter.websitevoice.com
-0.0.0.0 counter.wikiwiki.jp
 0.0.0.0 counter.xxxcool.com
 0.0.0.0 counter.yadro.ru
 0.0.0.0 counter.yandro.ru
@@ -41107,7 +41109,6 @@
 0.0.0.0 ddnk.advertur.ru
 0.0.0.0 ddnslive.com
 0.0.0.0 dd.nytimes.com
-0.0.0.0 ddoe.shop
 0.0.0.0 ddome-tag.blablacar.com
 0.0.0.0 ddpaowanji.com
 0.0.0.0 ddpvnqtpdqid.xyz
@@ -45429,6 +45430,7 @@
 0.0.0.0 dyxsmj.net
 0.0.0.0 dyygsgxhfrlo.xyz
 0.0.0.0 dyysxwjeyfiysrs.com
+0.0.0.0 dyzgdp.xyz
 0.0.0.0 dyzmpx.speedway.fr
 0.0.0.0 dz100.cosmicnewspulse.com
 0.0.0.0 dz1690.cosmicnewspulse.com
@@ -60956,6 +60958,7 @@
 0.0.0.0 hfjhr.cn
 0.0.0.0 hfjk3wa.com
 0.0.0.0 hfjoksuriyy.com
+0.0.0.0 hfjsliu.top
 0.0.0.0 hfjvuxuwasf.com
 0.0.0.0 hfk128dfs-dsfbheuoys.xyz
 0.0.0.0 hfk7j.top
@@ -67680,6 +67683,7 @@
 0.0.0.0 ithergrouter.website
 0.0.0.0 i.thinkclearly.uk
 0.0.0.0 it.hokerlywaffies.com
+0.0.0.0 ithoughtsustache.info
 0.0.0.0 itienlo.top
 0.0.0.0 itim.vn
 0.0.0.0 it.indexexchange.com
@@ -68563,6 +68567,7 @@
 0.0.0.0 jfp6.destinia.de
 0.0.0.0 jf.palemaneleven.com
 0.0.0.0 jfpltp.eyeforfashion.pl
+0.0.0.0 jfremovals.com
 0.0.0.0 jfsocqmvvqt.com
 0.0.0.0 jfssblglhreubu.com
 0.0.0.0 jfthhbvpryrvbs.com
@@ -69407,6 +69412,7 @@
 0.0.0.0 jscloud.org
 0.0.0.0 jsc.marketgid.com
 0.0.0.0 jsc.mgid.com
+0.0.0.0 js.cmoa.pro
 0.0.0.0 jscode.acg68.com
 0.0.0.0 jscode.jbzj.com
 0.0.0.0 jscoinminer.com
@@ -73229,6 +73235,7 @@
 0.0.0.0 liberty.gedads.com
 0.0.0.0 libertystmedia.com
 0.0.0.0 libez.ru
+0.0.0.0 libhzf.xyz
 0.0.0.0 li.blogtrottr.com
 0.0.0.0 lib.pgmcdn.com
 0.0.0.0 librariandemocrattoss.com
@@ -84351,6 +84358,7 @@
 0.0.0.0 morict.com
 0.0.0.0 morionsluigini.digital
 0.0.0.0 morlanepoglady.click
+0.0.0.0 morlyes.com
 0.0.0.0 mormont.gamer-network.net
 0.0.0.0 morningamidamaruhal.com
 0.0.0.0 morningglory101.io
@@ -85107,7 +85115,6 @@
 0.0.0.0 m.tzh315.cn
 0.0.0.0 mu6m1.com
 0.0.0.0 mu88ads.com
-0.0.0.0 mualuondi.com
 0.0.0.0 mubam.ru
 0.0.0.0 mucapps.com
 0.0.0.0 m.ucc.gxfc2021.top
@@ -85120,7 +85127,6 @@
 0.0.0.0 mucopussamkhya.com
 0.0.0.0 m.uczzd.cn
 0.0.0.0 mud4.destinia.com.eg
-0.0.0.0 mudancaslvc.com
 0.0.0.0 mudbankoxfords.top
 0.0.0.0 mudcatbreezes.space
 0.0.0.0 muddiedbubales.com
@@ -86399,16 +86405,20 @@
 0.0.0.0 navi100.com
 0.0.0.0 navi10.com
 0.0.0.0 navi12.com
+0.0.0.0 navi16.ru
+0.0.0.0 navi17.ru
 0.0.0.0 navi18.com
 0.0.0.0 navi1.com
 0.0.0.0 navi20.com
 0.0.0.0 navi20.ru
 0.0.0.0 navi21.com
+0.0.0.0 navi21.ru
 0.0.0.0 navi22.com
 0.0.0.0 navi22.ru
 0.0.0.0 navi23.com
 0.0.0.0 navi23.ru
 0.0.0.0 navi24.ru
+0.0.0.0 navi25.ru
 0.0.0.0 navi2.com
 0.0.0.0 navi30.ru
 0.0.0.0 navi32.com
@@ -86422,6 +86432,7 @@
 0.0.0.0 navi42.ru
 0.0.0.0 navi45.ru
 0.0.0.0 navi47.com
+0.0.0.0 navi49.ru
 0.0.0.0 navi4.com
 0.0.0.0 navi50.com
 0.0.0.0 navi53.com
@@ -86429,7 +86440,6 @@
 0.0.0.0 navi58.com
 0.0.0.0 navi59.ru
 0.0.0.0 navi5.com
-0.0.0.0 navi61.com
 0.0.0.0 navi66.com
 0.0.0.0 navi66.ru
 0.0.0.0 navi67.com
@@ -86453,7 +86463,9 @@
 0.0.0.0 navi8.com
 0.0.0.0 navi90.com
 0.0.0.0 navi94.com
+0.0.0.0 navi94.ru
 0.0.0.0 navi96.com
+0.0.0.0 navi97.com
 0.0.0.0 navi98.com
 0.0.0.0 navi99.com
 0.0.0.0 navi9.com
@@ -87681,6 +87693,7 @@
 0.0.0.0 nip26.com
 0.0.0.0 nip28.com
 0.0.0.0 nip2.com
+0.0.0.0 nip30.com
 0.0.0.0 nip3.com
 0.0.0.0 nip44.com
 0.0.0.0 nip4.com
@@ -87690,7 +87703,6 @@
 0.0.0.0 nip84.com
 0.0.0.0 nip88.com
 0.0.0.0 nip8.com
-0.0.0.0 nip99.com
 0.0.0.0 nip9.com
 0.0.0.0 nipmucktwicer.com
 0.0.0.0 nipperathymy.life
@@ -88880,6 +88892,7 @@
 0.0.0.0 nyici.adsafeprotected.com
 0.0.0.0 nyidt.adsafeprotected.com
 0.0.0.0 nyifw.adsafeprotected.com
+0.0.0.0 nyihcpzdloe.com
 0.0.0.0 nyipixel.adsafeprotected.com
 0.0.0.0 nyipm.adsafeprotected.com
 0.0.0.0 nyisapi.adsafeprotected.com
@@ -91159,6 +91172,7 @@
 0.0.0.0 opo4.assuronline.com
 0.0.0.0 oponixa.com
 0.0.0.0 opootsoa.net
+0.0.0.0 opositeasysemblyjus.info
 0.0.0.0 opossum.roleup.com
 0.0.0.0 opossum.stephanieharari.com
 0.0.0.0 opowiescidnia.click
@@ -100692,6 +100706,7 @@
 0.0.0.0 qpdownload.com
 0.0.0.0 qpemoqauwc.com
 0.0.0.0 qpeoctxiqaxw.com
+0.0.0.0 qpesok.xyz
 0.0.0.0 qp.ezfxpuo.cn
 0.0.0.0 qpielh.kfhi.or.kr
 0.0.0.0 qpixxezhwwoc.com
@@ -107028,6 +107043,7 @@
 0.0.0.0 s.boydgaming.com
 0.0.0.0 sbpb1.chuiyue.com
 0.0.0.0 sbpb1.qulishi.com
+0.0.0.0 sbqptosht.com
 0.0.0.0 sbrakepads.com
 0.0.0.0 s.bramptonguardian.com
 0.0.0.0 sbrands.lookfantastic.com
@@ -108967,7 +108983,6 @@
 0.0.0.0 sensualtestresume.com
 0.0.0.0 sentbarn.com
 0.0.0.0 sentdysfunctional.com
-0.0.0.0 sentees.com
 0.0.0.0 sentencefigurederide.com
 0.0.0.0 sentenceinformedveil.com
 0.0.0.0 sentientfog.com
@@ -122195,6 +122210,7 @@
 0.0.0.0 tainec.fun
 0.0.0.0 tainosapiece.com
 0.0.0.0 taintvistacredulous.com
+0.0.0.0 taipeivermeil.top
 0.0.0.0 taipsuwa.com
 0.0.0.0 taiqingjiu.com
 0.0.0.0 t.airasia.com
@@ -123523,6 +123539,7 @@
 0.0.0.0 tesla-gifting.site
 0.0.0.0 teslaicrypto.com
 0.0.0.0 tesla-musk.eu
+0.0.0.0 tesla-online.net
 0.0.0.0 tesla.trafficstars.com
 0.0.0.0 teslatucker.com
 0.0.0.0 tesld.deroklom.click
@@ -124008,6 +124025,7 @@
 0.0.0.0 thecatmachine.com
 0.0.0.0 thecheatplanet.com
 0.0.0.0 the.checkfox.de
+0.0.0.0 thechildhooddream.com
 0.0.0.0 thechive.fr
 0.0.0.0 thechleads.pro
 0.0.0.0 thechronicles2.xyz
@@ -133902,6 +133920,7 @@
 0.0.0.0 uuuzuu.xyz
 0.0.0.0 uuvzmba.cn
 0.0.0.0 uuxfznnf.xyz
+0.0.0.0 uuysiaq.com
 0.0.0.0 uuzlytbpmmhfm.com
 0.0.0.0 uuzsfpju.xyz
 0.0.0.0 uuzu.com
@@ -136566,7 +136585,6 @@
 0.0.0.0 vttqld.xyz
 0.0.0.0 vttyjakvvdce.com
 0.0.0.0 vtt.zwda.com
-0.0.0.0 vturb.net
 0.0.0.0 vtveyowwjvz.com
 0.0.0.0 vtvkkbasfm.com
 0.0.0.0 vtvnnl.xyz
@@ -137338,6 +137356,7 @@
 0.0.0.0 wayachts.eu
 0.0.0.0 waybillbulged.com
 0.0.0.0 wayfarerspoutpraise.com
+0.0.0.0 wayfgwbipgiz.com
 0.0.0.0 wayfinderanalytics.servicebus.windows.net
 0.0.0.0 wayhacks.com
 0.0.0.0 waymarkgentiin.com
@@ -139095,6 +139114,7 @@
 0.0.0.0 wkclick.baidu.com
 0.0.0.0 wkctj.baidu.com
 0.0.0.0 wk.eccbb.com
+0.0.0.0 wkjyxcheng.top
 0.0.0.0 wkktnbxxum.xyz
 0.0.0.0 wklwyt.springer.com
 0.0.0.0 wkmorvzqjmwav.top
@@ -146042,6 +146062,7 @@
 0.0.0.0 xb588.net
 0.0.0.0 x.babe.today
 0.0.0.0 xbaxfy.minrevi.jp
+0.0.0.0 xbbhwggj.icu
 0.0.0.0 xbc8fsvo5w75wwx8.pro
 0.0.0.0 xbcnvj2mdk1dn1.com
 0.0.0.0 xbcrohmposa.com
@@ -147429,6 +147450,7 @@
 0.0.0.0 xyrkl.com
 0.0.0.0 xyrkotsqhaf.com
 0.0.0.0 xyryjt.xyz
+0.0.0.0 xysefte.icu
 0.0.0.0 xysgfqnara.xyz
 0.0.0.0 xyst.glossography.uno
 0.0.0.0 xytcboyz.icu
@@ -147548,6 +147570,7 @@
 0.0.0.0 yandex.ay.pay.inpost-pl-pacid273jks.abin.shopmusic.icanmining.ru
 0.0.0.0 yandex-dmp-sync.rutarget.ru
 0.0.0.0 yandex.inpost-pl-pacid273jks.abun.qhopmusic.icanmining.ru
+0.0.0.0 yandex.putin-huilo.sberbank.id05196219.com
 0.0.0.0 yandex-sync.rutarget.ru
 0.0.0.0 yandui.com
 0.0.0.0 yanghetp.com
@@ -147637,6 +147660,7 @@
 0.0.0.0 ybtkzjm.com
 0.0.0.0 ybuduzpe.com
 0.0.0.0 ybujfcuqya.com
+0.0.0.0 ybutoakqkct.com
 0.0.0.0 ybwcvhcnulrgbvy.com
 0.0.0.0 ybxkfivvpmofh.com
 0.0.0.0 ybx.yahoo.co.jp
@@ -150184,39 +150208,39 @@
 0.0.0.0 zzzjvqzkmqjlo.top
 0.0.0.0 zzzjvqzkmqjyb.top
 
-185.199.109.154 github.githubassets.com
-140.82.114.22 central.github.com
-185.199.110.133 desktop.githubusercontent.com
-185.199.109.153 assets-cdn.github.com
-185.199.108.133 camo.githubusercontent.com
-185.199.109.133 github.map.fastly.net
+185.199.110.154 github.githubassets.com
+140.82.114.21 central.github.com
+185.199.111.133 desktop.githubusercontent.com
+185.199.108.153 assets-cdn.github.com
+185.199.111.133 camo.githubusercontent.com
+185.199.108.133 github.map.fastly.net
 151.101.65.194 github.global.ssl.fastly.net
-140.82.116.3 gist.github.com
+140.82.112.4 gist.github.com
 185.199.111.153 github.io
-140.82.116.3 github.com
-140.82.116.6 api.github.com
-185.199.108.133 raw.githubusercontent.com
-185.199.110.133 user-images.githubusercontent.com
-185.199.111.133 favicons.githubusercontent.com
-185.199.111.133 avatars5.githubusercontent.com
+140.82.114.3 github.com
+140.82.112.5 api.github.com
+185.199.111.133 raw.githubusercontent.com
+185.199.111.133 user-images.githubusercontent.com
+185.199.110.133 favicons.githubusercontent.com
+185.199.109.133 avatars5.githubusercontent.com
 185.199.108.133 avatars4.githubusercontent.com
 185.199.108.133 avatars3.githubusercontent.com
-185.199.108.133 avatars2.githubusercontent.com
-185.199.111.133 avatars1.githubusercontent.com
-185.199.111.133 avatars0.githubusercontent.com
-185.199.108.133 avatars.githubusercontent.com
-140.82.116.10 codeload.github.com
-52.217.206.249 github-cloud.s3.amazonaws.com
-52.217.175.97 github-com.s3.amazonaws.com
-54.231.225.33 github-production-release-asset-2e65be.s3.amazonaws.com
-16.182.37.129 github-production-user-asset-6210df.s3.amazonaws.com
-52.217.116.89 github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.110.153 githubstatus.com
+185.199.111.133 avatars2.githubusercontent.com
+185.199.108.133 avatars1.githubusercontent.com
+185.199.108.133 avatars0.githubusercontent.com
+185.199.109.133 avatars.githubusercontent.com
+140.82.114.10 codeload.github.com
+52.217.133.17 github-cloud.s3.amazonaws.com
+52.217.72.68 github-com.s3.amazonaws.com
+52.216.185.67 github-production-release-asset-2e65be.s3.amazonaws.com
+54.231.171.25 github-production-user-asset-6210df.s3.amazonaws.com
+3.5.10.169 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.153 githubstatus.com
 140.82.114.17 github.community
-185.199.111.133 media.githubusercontent.com
+185.199.109.133 media.githubusercontent.com
 185.199.110.133 objects.githubusercontent.com
 185.199.110.133 raw.github.com
-138.91.182.224 copilot-proxy.githubusercontent.com
+4.249.131.160 copilot-proxy.githubusercontent.com
 
 
 
