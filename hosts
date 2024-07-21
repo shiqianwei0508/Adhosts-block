@@ -1,4 +1,4 @@
-# 更新时间：2024-07-20 15:23:21
+# 更新时间：2024-07-21 15:23:29
 # hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts
 # 邮箱： sqwei2012@gmail.com
 # 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！
@@ -22139,6 +22139,7 @@
 0.0.0.0 avocet.io
 0.0.0.0 avosstart.fr
 0.0.0.0 avouchamazeddownload.com
+0.0.0.0 avouchuramil.com
 0.0.0.0 avouse.com
 0.0.0.0 avowalsannop.com
 0.0.0.0 avowappear.com
@@ -37799,6 +37800,7 @@
 0.0.0.0 d1.sina.com.cn
 0.0.0.0 d1.sinaimg.cn
 0.0.0.0 d1tracker.ru
+0.0.0.0 d1u5ibtsigyagv.cloudfront.net
 0.0.0.0 d1ugiptma3cglb.cloudfront.net
 0.0.0.0 d1uzjiv6zzdlbc.cloudfront.net
 0.0.0.0 d1v373ntykegkp.cloudfront.net
@@ -60579,6 +60581,7 @@
 0.0.0.0 hamster.consentkit.io
 0.0.0.0 hamster.darstellendekuenste.de
 0.0.0.0 hamsterginger.com
+0.0.0.0 hamulustueiron.com
 0.0.0.0 hamurustack.click
 0.0.0.0 hanaa.cn
 0.0.0.0 hanadev.branch.rocks
@@ -72636,6 +72639,7 @@
 0.0.0.0 l.aaxads.com
 0.0.0.0 labadena.com
 0.0.0.0 lab.analyticspodium.com
+0.0.0.0 labapwlkyov.com
 0.0.0.0 labbyplop.com
 0.0.0.0 labeldollars.com
 0.0.0.0 laboiteorse.fr
@@ -127199,6 +127203,7 @@
 0.0.0.0 top-hacks.net
 0.0.0.0 tophacks.net
 0.0.0.0 tophacks.org
+0.0.0.0 tophaw.com
 0.0.0.0 tophippo.vlion.cn
 0.0.0.0 tophirek.hu
 0.0.0.0 top.hsdn.org
@@ -138696,6 +138701,7 @@
 0.0.0.0 waframedia5.com
 0.0.0.0 wafvertizing.crazygames.com
 0.0.0.0 wagecolorful.com
+0.0.0.0 wagenerfevers.com
 0.0.0.0 wagepulsate.com
 0.0.0.0 wager.dm
 0.0.0.0 wagerjoint.com
@@ -152065,38 +152071,38 @@
 0.0.0.0 zzzjvqzkmqjlo.top
 0.0.0.0 zzzjvqzkmqjyb.top
 
-185.199.111.154 github.githubassets.com
+185.199.109.154 github.githubassets.com
 140.82.113.22 central.github.com
-185.199.109.133 desktop.githubusercontent.com
-185.199.108.153 assets-cdn.github.com
-185.199.110.133 camo.githubusercontent.com
-185.199.110.133 github.map.fastly.net
-151.101.193.194 github.global.ssl.fastly.net
-140.82.113.3 gist.github.com
-185.199.111.153 github.io
-140.82.112.4 github.com
+185.199.110.133 desktop.githubusercontent.com
+185.199.111.153 assets-cdn.github.com
+185.199.109.133 camo.githubusercontent.com
+185.199.108.133 github.map.fastly.net
+151.101.1.194 github.global.ssl.fastly.net
+140.82.112.4 gist.github.com
+185.199.110.153 github.io
+140.82.113.3 github.com
 140.82.113.6 api.github.com
-185.199.109.133 raw.githubusercontent.com
-185.199.110.133 user-images.githubusercontent.com
-185.199.108.133 favicons.githubusercontent.com
+185.199.110.133 raw.githubusercontent.com
+185.199.108.133 user-images.githubusercontent.com
+185.199.111.133 favicons.githubusercontent.com
 185.199.111.133 avatars5.githubusercontent.com
 185.199.111.133 avatars4.githubusercontent.com
-185.199.109.133 avatars3.githubusercontent.com
-185.199.110.133 avatars2.githubusercontent.com
-185.199.111.133 avatars1.githubusercontent.com
-185.199.108.133 avatars0.githubusercontent.com
-185.199.109.133 avatars.githubusercontent.com
-140.82.113.9 codeload.github.com
-52.217.236.121 github-cloud.s3.amazonaws.com
-52.217.47.60 github-com.s3.amazonaws.com
-54.231.236.73 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.194.185 github-production-user-asset-6210df.s3.amazonaws.com
-3.5.28.143 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.111.133 avatars3.githubusercontent.com
+185.199.109.133 avatars2.githubusercontent.com
+185.199.108.133 avatars1.githubusercontent.com
+185.199.109.133 avatars0.githubusercontent.com
+185.199.108.133 avatars.githubusercontent.com
+140.82.113.10 codeload.github.com
+3.5.10.203 github-cloud.s3.amazonaws.com
+52.217.195.129 github-com.s3.amazonaws.com
+3.5.30.26 github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.21.116 github-production-user-asset-6210df.s3.amazonaws.com
+54.231.229.41 github-production-repository-file-5c1aeb.s3.amazonaws.com
 185.199.110.153 githubstatus.com
-140.82.113.17 github.community
+140.82.114.17 github.community
 185.199.110.133 media.githubusercontent.com
-185.199.110.133 objects.githubusercontent.com
-185.199.108.133 raw.github.com
+185.199.111.133 objects.githubusercontent.com
+185.199.109.133 raw.github.com
 4.249.131.160 copilot-proxy.githubusercontent.com
 
 
