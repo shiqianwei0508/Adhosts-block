@@ -1,4 +1,4 @@
-# 更新时间：2024-07-21 15:23:29
+# 更新时间：2024-07-22 15:23:27
 # hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts
 # 邮箱： sqwei2012@gmail.com
 # 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！
@@ -21589,7 +21589,6 @@
 0.0.0.0 at.norisbank.de
 0.0.0.0 atnpx.com
 0.0.0.0 a.tn.token-ad.com
-0.0.0.0 atom.adjust.com
 0.0.0.0 atom.adop.cc
 0.0.0.0 atomcdn.adop.cc
 0.0.0.0 atomex.net
@@ -46825,7 +46824,6 @@
 0.0.0.0 edgecdn.bizible.com
 0.0.0.0 edgedc.falabella.com
 0.0.0.0 edge.foodnetwork.ca
-0.0.0.0 edge-geo.nc0.co
 0.0.0.0 edge.globaltv.com
 0.0.0.0 edge.grandbridge.com
 0.0.0.0 edge.hgtv.ca
@@ -49712,7 +49710,6 @@
 0.0.0.0 events3alt.adcolony.com
 0.0.0.0 events.accuity.com
 0.0.0.0 events.adhaven.com
-0.0.0.0 events.adjust.com
 0.0.0.0 events.ads.vungle.com
 0.0.0.0 events.aerserv.com
 0.0.0.0 events.air.tv
@@ -87522,7 +87519,6 @@
 0.0.0.0 nbyggk.jocee.jp
 0.0.0.0 nc004x.corp.youdao.com
 0.0.0.0 nc045x.corp.youdao.com
-0.0.0.0 nc0.co
 0.0.0.0 nc.5.p2l.info
 0.0.0.0 ncaavvcssf.com
 0.0.0.0 ncads.s3.amazonaws.com
@@ -90718,6 +90714,7 @@
 0.0.0.0 of.open-sooursee.live
 0.0.0.0 ofphanpytor.com
 0.0.0.0 ofpiplupon.com
+0.0.0.0 ofplredpogw.com
 0.0.0.0 ofqaqsazxli.com
 0.0.0.0 ofqkbk.proclipusa.com
 0.0.0.0 ofqopmnpia.com
@@ -126816,7 +126813,6 @@
 0.0.0.0 t.nativendo.de
 0.0.0.0 t.navysports.com
 0.0.0.0 tnbedvhussaxz.com
-0.0.0.0 t.nc0.co
 0.0.0.0 tnc16-alisg.isnssdk.com
 0.0.0.0 tnc16-useast1a.isnssdk.com
 0.0.0.0 tnc3-aliec2.snssdk.com
@@ -142364,7 +142360,6 @@
 0.0.0.0 www.adcolony.com
 0.0.0.0 www.addfreecounter.com
 0.0.0.0 www.addthis.com
-0.0.0.0 www.addtoany.com
 0.0.0.0 www.ade11f86.northlightpictures.ca
 0.0.0.0 www.adekwatneinfo.click
 0.0.0.0 www.adekwatnosc24h.click
@@ -152071,37 +152066,37 @@
 0.0.0.0 zzzjvqzkmqjlo.top
 0.0.0.0 zzzjvqzkmqjyb.top
 
-185.199.109.154 github.githubassets.com
-140.82.113.22 central.github.com
+185.199.108.154 github.githubassets.com
+140.82.112.22 central.github.com
 185.199.110.133 desktop.githubusercontent.com
-185.199.111.153 assets-cdn.github.com
+185.199.109.153 assets-cdn.github.com
 185.199.109.133 camo.githubusercontent.com
 185.199.108.133 github.map.fastly.net
-151.101.1.194 github.global.ssl.fastly.net
-140.82.112.4 gist.github.com
+151.101.65.194 github.global.ssl.fastly.net
+140.82.114.4 gist.github.com
 185.199.110.153 github.io
-140.82.113.3 github.com
-140.82.113.6 api.github.com
-185.199.110.133 raw.githubusercontent.com
+140.82.112.4 github.com
+140.82.112.5 api.github.com
+185.199.111.133 raw.githubusercontent.com
 185.199.108.133 user-images.githubusercontent.com
 185.199.111.133 favicons.githubusercontent.com
-185.199.111.133 avatars5.githubusercontent.com
-185.199.111.133 avatars4.githubusercontent.com
-185.199.111.133 avatars3.githubusercontent.com
-185.199.109.133 avatars2.githubusercontent.com
-185.199.108.133 avatars1.githubusercontent.com
-185.199.109.133 avatars0.githubusercontent.com
-185.199.108.133 avatars.githubusercontent.com
-140.82.113.10 codeload.github.com
-3.5.10.203 github-cloud.s3.amazonaws.com
-52.217.195.129 github-com.s3.amazonaws.com
-3.5.30.26 github-production-release-asset-2e65be.s3.amazonaws.com
-3.5.21.116 github-production-user-asset-6210df.s3.amazonaws.com
-54.231.229.41 github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.110.153 githubstatus.com
-140.82.114.17 github.community
+185.199.108.133 avatars5.githubusercontent.com
+185.199.108.133 avatars4.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.111.133 avatars2.githubusercontent.com
+185.199.111.133 avatars1.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
+185.199.110.133 avatars.githubusercontent.com
+140.82.112.10 codeload.github.com
+3.5.0.21 github-cloud.s3.amazonaws.com
+52.217.170.89 github-com.s3.amazonaws.com
+52.216.62.97 github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.29.22 github-production-user-asset-6210df.s3.amazonaws.com
+16.182.34.49 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.109.153 githubstatus.com
+140.82.113.18 github.community
 185.199.110.133 media.githubusercontent.com
-185.199.111.133 objects.githubusercontent.com
+185.199.108.133 objects.githubusercontent.com
 185.199.109.133 raw.github.com
 4.249.131.160 copilot-proxy.githubusercontent.com
 
