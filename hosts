@@ -1,4 +1,4 @@
-# 更新时间：2024-08-22 15:23:37
+# 更新时间：2024-08-23 15:23:17
 # hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts
 # 邮箱： sqwei2012@gmail.com
 # 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！
@@ -398,6 +398,7 @@
 0.0.0.0 10391.findyourtest.site
 0.0.0.0 104231.dtiblog.com
 0.0.0.0 1048.5clo0xmbf.com
+0.0.0.0 1050631164.rsc.cdn77.org
 0.0.0.0 105915624.com
 0.0.0.0 1062.5clo0xmbf.com
 0.0.0.0 106487142d7a0df2ad832bc5c4350e73.nmdj.pl
@@ -644,6 +645,7 @@
 0.0.0.0 1720.4puuqeh41.com
 0.0.0.0 1736253261.rsc.cdn77.org
 0.0.0.0 1736392ad697af05d498040d32de16b4.amrst.pl
+0.0.0.0 1739135659.rsc.cdn77.org
 0.0.0.0 1750.sosqboh85.com
 0.0.0.0 1769e6a16ad126971cf4ce894d0b4191.marcoprzy.net.pl
 0.0.0.0 176.net.jumia.ma
@@ -1752,6 +1754,7 @@
 0.0.0.0 3a69ac9c73dbad306bc78fe41172dda5.nmdj.pl
 0.0.0.0 3a9651b8e5695fe5ad2941325364cc13.twojedom.pl
 0.0.0.0 3a98f4e936.com
+0.0.0.0 3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev
 0.0.0.0 3ad5iot.com
 0.0.0.0 3adventurou5life.online
 0.0.0.0 3ae52b08mbt3oxw4zh32q5-z5m.hop.clickbank.net
@@ -2269,6 +2272,7 @@
 0.0.0.0 5726303d87522d05.com
 0.0.0.0 5726.bapi.adsafeprotected.com
 0.0.0.0 5732ad39f4ab5fbf9d7b45ce7842951e.diskxz.pl
+0.0.0.0 574ae48fe5.com
 0.0.0.0 5753.5clo0xmbf.com
 0.0.0.0 57558.com
 0.0.0.0 57573zubo36833.com
@@ -16466,6 +16470,7 @@
 0.0.0.0 analytics.faceitanalytics.com
 0.0.0.0 analytics.fam.ir
 0.0.0.0 analytics.fap.bar
+0.0.0.0 analytics.faprika.net
 0.0.0.0 analytics.fatmedia.io
 0.0.0.0 analytics.favcy.com
 0.0.0.0 analytics.fcgtalent.fi
@@ -17202,6 +17207,7 @@
 0.0.0.0 analytics.valheimgamer.com
 0.0.0.0 analytics.validitylabs.org
 0.0.0.0 analytics.valiuz.com
+0.0.0.0 analytics.valotool.com
 0.0.0.0 analytics.vanillaforums.com
 0.0.0.0 analytics.vanilla-project.guide
 0.0.0.0 analytics.vast.com
@@ -20492,7 +20498,6 @@
 0.0.0.0 apromoweb.com
 0.0.0.0 apsalar.com
 0.0.0.0 apsatnlfylz.com
-0.0.0.0 apsehick.date
 0.0.0.0 aps.hearstnp.com
 0.0.0.0 ap.shouta.co
 0.0.0.0 apsidalmungoos.top
@@ -24183,6 +24188,7 @@
 0.0.0.0 beacon.affil.walmart.com
 0.0.0.0 beacon.aimtell.com
 0.0.0.0 beacon-api.aliyuncs.com
+0.0.0.0 beacon.apsehick.date
 0.0.0.0 beacon.carfax.com
 0.0.0.0 beacon.cdnma.com
 0.0.0.0 beacon.cdn.qq.com
@@ -26361,7 +26367,6 @@
 0.0.0.0 bonus.grandz-casino.com
 0.0.0.0 bonusmaniac.com
 0.0.0.0 bonus.no-more-now.com
-0.0.0.0 bonuspulsefortune.life
 0.0.0.0 bonus.rtbetcasino.com
 0.0.0.0 bonusshatter.com
 0.0.0.0 bonus.spacefortunacasino.com
@@ -27697,6 +27702,7 @@
 0.0.0.0 buqajvxicma.com
 0.0.0.0 buqbxdqurj.xyz
 0.0.0.0 buqkrzbrucz.com
+0.0.0.0 buram.xyz
 0.0.0.0 bureauelderlydivine.com
 0.0.0.0 bureautrickle.com
 0.0.0.0 bureauxcope.casa
@@ -27898,6 +27904,7 @@
 0.0.0.0 bvbqyq.odalys-vacances.com
 0.0.0.0 bvbvbt.tentaklsistem.click
 0.0.0.0 bvcsfcx.com
+0.0.0.0 bvdenx.xyz
 0.0.0.0 bvepgbnjgdubvz.com
 0.0.0.0 bvexmf.bigtv.ru
 0.0.0.0 b.vidmob.com
@@ -29745,7 +29752,6 @@
 0.0.0.0 cdn.browsiprod.com
 0.0.0.0 cdn.bttrack.com
 0.0.0.0 cdn.bttrack.comcdn.bttrack.com
-0.0.0.0 cdn.buram.xyz
 0.0.0.0 cdn.buysellads.com
 0.0.0.0 cdn-b.yieldlove.com
 0.0.0.0 cdn-canary.siftscience.com
@@ -30896,6 +30902,7 @@
 0.0.0.0 chauckoo.xyz
 0.0.0.0 chaudoubeets.net
 0.0.0.0 chaudrep.net
+0.0.0.0 chaugnortuw.net
 0.0.0.0 chaugroo.net
 0.0.0.0 chauinubbins.com
 0.0.0.0 chauksoam.xyz
@@ -41555,6 +41562,7 @@
 0.0.0.0 ddapp.cn
 0.0.0.0 dd.betano.com
 0.0.0.0 ddbuwo.cn
+0.0.0.0 ddcad3.reviewgiftfb.com
 0.0.0.0 dd.control4.com
 0.0.0.0 ddc.statefarm.com
 0.0.0.0 ddd.1sapp.com
@@ -43288,6 +43296,7 @@
 0.0.0.0 dirty.games
 0.0.0.0 dirtyrhino.com
 0.0.0.0 dirtytwitch.com
+0.0.0.0 dirvimctifiz.com
 0.0.0.0 disableadblock.com
 0.0.0.0 disable-adverts.com
 0.0.0.0 disabled-ads-case-3db1e.firebaseapp.com
@@ -46078,6 +46087,7 @@
 0.0.0.0 ea.castorama.fr
 0.0.0.0 ea.catimini-boutique.com
 0.0.0.0 ea.catimini.com
+0.0.0.0 eacdf119.cn
 0.0.0.0 eacdn.com
 0.0.0.0 eacfiii.com
 0.0.0.0 eachiv.com
@@ -46856,7 +46866,6 @@
 0.0.0.0 eeab79bf10.com
 0.0.0.0 eeafcgmpk.com
 0.0.0.0 eeb298173a02d5546b511804ad88e47f.owps.pl
-0.0.0.0 eebeaabd98.574ae48fe5.com
 0.0.0.0 eebouroo.net
 0.0.0.0 eebqeceysaakco.com
 0.0.0.0 eec.crunchyroll.com
@@ -50923,6 +50932,7 @@
 0.0.0.0 fascinateddashboard.com
 0.0.0.0 fascinatedfeather.com
 0.0.0.0 fasfasfas332dsa.click
+0.0.0.0 fasgazazxvi.com
 0.0.0.0 fashiko.com
 0.0.0.0 fashionablegangsterexplosion.com
 0.0.0.0 fashionadid.com
@@ -52723,6 +52733,7 @@
 0.0.0.0 fluxy.cn
 0.0.0.0 flw.camcaps.ac
 0.0.0.0 flw.ero-advertising.com
+0.0.0.0 flyads1.com
 0.0.0.0 fly-ads.net
 0.0.0.0 fly-analytics.com
 0.0.0.0 fly.caljetelite.com
@@ -56234,6 +56245,7 @@
 0.0.0.0 get.topadultdeals.com
 0.0.0.0 get.trackclicker.com
 0.0.0.0 gettraffnews.com
+0.0.0.0 gettrf.org
 0.0.0.0 gettunable.affinityblue.com
 0.0.0.0 get.tunableapp.com
 0.0.0.0 get.tunity.com
@@ -56350,7 +56362,6 @@
 0.0.0.0 gg.blueidea.com
 0.0.0.0 gg.caixin.com
 0.0.0.0 ggc.cmvideo.cn
-0.0.0.0 ggchallengemode.world
 0.0.0.0 ggcode.2345.com
 0.0.0.0 gg.cs090.com
 0.0.0.0 ggdfrl.com
@@ -60966,6 +60977,7 @@
 0.0.0.0 heixidor.com
 0.0.0.0 hejazicaribe.guru
 0.0.0.0 hej.henriksommerfeld.se
+0.0.0.0 hejqtbnmwze.com
 0.0.0.0 hejrspjwu.com
 0.0.0.0 hekhnn.turnkeyvr.com
 0.0.0.0 hekowutus.com
@@ -68826,6 +68838,7 @@
 0.0.0.0 jewgn8une.com
 0.0.0.0 jewhouca.net
 0.0.0.0 jewlhtrutgomh.com
+0.0.0.0 jewruta.top
 0.0.0.0 jewscane.digital
 0.0.0.0 jewspa.com
 0.0.0.0 j.exit-ad.com
@@ -70459,6 +70472,7 @@
 0.0.0.0 kangaroo.triplightfantastic.com
 0.0.0.0 kanojo.fr
 0.0.0.0 kanoodle.com
+0.0.0.0 kansacklfrjr.com
 0.0.0.0 kanseen.com
 0.0.0.0 kantiwl.com
 0.0.0.0 kanwby.com
@@ -70762,6 +70776,7 @@
 0.0.0.0 keuktyouexpe.info
 0.0.0.0 kevuci.ru
 0.0.0.0 kewnemhpbmzkm.com
+0.0.0.0 kewrutd.top
 0.0.0.0 kexojito.com
 0.0.0.0 kexup.ru
 0.0.0.0 keyade.alltricks.fr
@@ -71819,6 +71834,7 @@
 0.0.0.0 ktskxm.smartphoto.nl
 0.0.0.0 kts.vasstycom.com
 0.0.0.0 kts.visitstats.com
+0.0.0.0 ktureukworekto.com
 0.0.0.0 ktu.sv2.biz
 0.0.0.0 ktvjpmi.xyz
 0.0.0.0 ktvtxir.xyz
@@ -72430,6 +72446,7 @@
 0.0.0.0 largepeering.com
 0.0.0.0 laridaetrionfo.top
 0.0.0.0 larivieracasino.com
+0.0.0.0 larkenjoyedborn.com
 0.0.0.0 lark.pollie.dev
 0.0.0.0 larkyabandum.com
 0.0.0.0 larontale.com
@@ -73563,6 +73580,7 @@
 0.0.0.0 lifetds.com
 0.0.0.0 lifetimeagriculturalproducer.com
 0.0.0.0 lifetimeroyaltybestial.com
+0.0.0.0 lifewaykisan.click
 0.0.0.0 lifewonderland.com
 0.0.0.0 liffic.com
 0.0.0.0 lifiads.com
@@ -76778,7 +76796,6 @@
 0.0.0.0 lucastadvertising.com
 0.0.0.0 lucatee.com
 0.0.0.0 lucchesedeal.store
-0.0.0.0 lucchesesale.shop
 0.0.0.0 lucentfreer.com
 0.0.0.0 lucentposition.com
 0.0.0.0 luciditycuddle.com
@@ -84115,7 +84132,6 @@
 0.0.0.0 modlily.com
 0.0.0.0 modlily.net
 0.0.0.0 modmarket.click
-0.0.0.0 modmobile24.com
 0.0.0.0 modna-szafa.click
 0.0.0.0 modnezycie.click
 0.0.0.0 modny-bon.click
@@ -84503,6 +84519,7 @@
 0.0.0.0 morguebattle.com
 0.0.0.0 morict.com
 0.0.0.0 morionsluigini.digital
+0.0.0.0 moriscogabbles.com
 0.0.0.0 morlanepoglady.click
 0.0.0.0 mormonindianajones.com
 0.0.0.0 mormont.gamer-network.net
@@ -86556,7 +86573,6 @@
 0.0.0.0 navi39.ru
 0.0.0.0 navi3.com
 0.0.0.0 navi40.com
-0.0.0.0 navi42.ru
 0.0.0.0 navi43.ru
 0.0.0.0 navi45.ru
 0.0.0.0 navi4.com
@@ -88861,6 +88877,7 @@
 0.0.0.0 nvvqrv.xyz
 0.0.0.0 nvxcvyfedg.com
 0.0.0.0 nvxlag.liligo.fr
+0.0.0.0 nvzaezebhow.com
 0.0.0.0 nvzcoggh.com
 0.0.0.0 nw.ads.doko.jp
 0.0.0.0 nwbmvq.jockey.com
@@ -90570,6 +90587,7 @@
 0.0.0.0 oncahh.boxlunch.com
 0.0.0.0 onccahdawa.com
 0.0.0.0 oncdiranwrus.com
+0.0.0.0 oncesets.com
 0.0.0.0 oncgtaramla.com
 0.0.0.0 oncinu.com
 0.0.0.0 onclarck.com
@@ -92850,6 +92868,7 @@
 0.0.0.0 pakdru.altrarunning.com
 0.0.0.0 pakjevoordeel.net
 0.0.0.0 palace-hotel-web.click
+0.0.0.0 palaesavgs.com
 0.0.0.0 palakahone.com
 0.0.0.0 palama2.co
 0.0.0.0 palama2.com
@@ -95663,6 +95682,7 @@
 0.0.0.0 pjhku.com
 0.0.0.0 pjivapiumeb.com
 0.0.0.0 pjjpp.com
+0.0.0.0 pjkfmxvsjtyp.com
 0.0.0.0 pjlufuwtxv.com
 0.0.0.0 pjmryh.zapatos.es
 0.0.0.0 pjnwmbz.com
@@ -95903,6 +95923,7 @@
 0.0.0.0 plausible.citynews.ovh
 0.0.0.0 plausible.conveyal.com
 0.0.0.0 plausible.corbettbarr.com
+0.0.0.0 plausible.corsme.com
 0.0.0.0 plausible.countingindia.com
 0.0.0.0 plausible.dailytics.com
 0.0.0.0 plausible.deploymentfromscratch.com
@@ -95945,6 +95966,7 @@
 0.0.0.0 plausible.nuqu.org
 0.0.0.0 plausible.omgapi.org
 0.0.0.0 plausible.promlens.com
+0.0.0.0 plausible.pronouns.cc
 0.0.0.0 plausible.prufit.co
 0.0.0.0 plausible.pumpkint.com
 0.0.0.0 plausible.quantumcomputingexplained.com
@@ -101450,6 +101472,7 @@
 0.0.0.0 qwrnkpow.com
 0.0.0.0 qwrwawwmblwbb.top
 0.0.0.0 qwrwawwmblybj.top
+0.0.0.0 qwrwhosailedbe.info
 0.0.0.0 qwsanan.top
 0.0.0.0 qwtag.com
 0.0.0.0 qwuaqrxfuohb.com
@@ -107005,6 +107028,7 @@
 0.0.0.0 sandtheircle.com
 0.0.0.0 sandviken.rawww.space
 0.0.0.0 sandwich3452.fun
+0.0.0.0 sandwichconscientiousroadside.com
 0.0.0.0 sandwichdeliveringswine.com
 0.0.0.0 sandyrecordingmeet.com
 0.0.0.0 sandysuspicions.com
@@ -107080,6 +107104,7 @@
 0.0.0.0 sarahshuckburgh.com
 0.0.0.0 sarcasmidentifiers.com
 0.0.0.0 sarcasticdismalconstrue.com
+0.0.0.0 sarcasticnotarycontrived.com
 0.0.0.0 sarcelgusla.com
 0.0.0.0 sarcinedewlike.com
 0.0.0.0 s.arclk.net
@@ -111385,6 +111410,7 @@
 0.0.0.0 skroutza.skroutz.gr
 0.0.0.0 sk-sanasport.m-shop.me
 0.0.0.0 skskssso.com
+0.0.0.0 sks.mrkhub.com
 0.0.0.0 skt-asum.com
 0.0.0.0 sk-topgal.m-shop.me
 0.0.0.0 sk.tuskersecklein.com
@@ -123084,7 +123110,6 @@
 0.0.0.0 t.beop.io
 0.0.0.0 tberjonk.com
 0.0.0.0 tbe.tom.ru
-0.0.0.0 tbg-lmtd.xyz
 0.0.0.0 tbgmckdemnv.com
 0.0.0.0 tbid.adsame.com
 0.0.0.0 tbihvt.pickawood.com
@@ -123531,6 +123556,7 @@
 0.0.0.0 te.heine-shop.nl
 0.0.0.0 te.helline.fr
 0.0.0.0 teho.visma.fi
+0.0.0.0 tehxzz.xyz
 0.0.0.0 teiankythes.top
 0.0.0.0 teicdn.com
 0.0.0.0 teiidsfortune.com
@@ -128984,7 +129010,6 @@
 0.0.0.0 transact.blackboard.com
 0.0.0.0 transactionsbeatenapplication.com
 0.0.0.0 transactionsparasite.com
-0.0.0.0 transcend-cdn.com
 0.0.0.0 transcendcdn.eventbrite.com
 0.0.0.0 transcriptcompassionacute.com
 0.0.0.0 transcriptjeanne.com
@@ -132515,6 +132540,7 @@
 0.0.0.0 uem.migu.cn
 0.0.0.0 uep.gaijin.net
 0.0.0.0 uepkcdjgp.com
+0.0.0.0 uerbgnkas.com
 0.0.0.0 uerzyr.cn
 0.0.0.0 ues.kicker.de
 0.0.0.0 uessnah.icu
@@ -132554,6 +132580,7 @@
 0.0.0.0 ufphkyw.com
 0.0.0.0 ufqxgccf.com
 0.0.0.0 ufqzrk.espritshop.ch
+0.0.0.0 uftcfo.xyz
 0.0.0.0 ufuspv.nucific.com
 0.0.0.0 ufvauj.cn
 0.0.0.0 ufwsfi.magasins-u.com
@@ -132901,6 +132928,7 @@
 0.0.0.0 um7exzpve.com
 0.0.0.0 umami.aigenerations.net
 0.0.0.0 umamistreet.analytics.qlook.net
+0.0.0.0 umami.subdavis.com
 0.0.0.0 umami.wakarimasen.moe
 0.0.0.0 umapi.cn
 0.0.0.0 umazvs.raybiotech.com
@@ -137640,7 +137668,6 @@
 0.0.0.0 watch.jawwy.tv
 0.0.0.0 watchmanyachtmatch.com
 0.0.0.0 watchmarinerflint.com
-0.0.0.0 watchmark.shop
 0.0.0.0 watchmovieonlinefull.com
 0.0.0.0 watchmovieonlinestreaming.com
 0.0.0.0 watchmovieshd.co
@@ -138709,6 +138736,7 @@
 0.0.0.0 wfqgfaa.cn
 0.0.0.0 wfredir.net
 0.0.0.0 wfs01.wapka.mobi
+0.0.0.0 wfsmya.xyz
 0.0.0.0 wfthumty.pm
 0.0.0.0 wftyehw.cn
 0.0.0.0 wfubtuatsa.com
@@ -139474,6 +139502,7 @@
 0.0.0.0 wjoxqd.com
 0.0.0.0 wjtekf.vidaxl.bg
 0.0.0.0 wjudihl.com
+0.0.0.0 wjvavwjyaso.com
 0.0.0.0 wjvyorreejezm.top
 0.0.0.0 wjvyorreejkzw.top
 0.0.0.0 wjwod.cyou
@@ -150551,6 +150580,7 @@
 0.0.0.0 zug.sbb.ch
 0.0.0.0 zuhempih.com
 0.0.0.0 zuixinyiqi.com
+0.0.0.0 zujibumlgc.com
 0.0.0.0 zukary.com
 0.0.0.0 zukddms.cn
 0.0.0.0 zukore.com
@@ -150771,38 +150801,38 @@
 0.0.0.0 zzzjvqzkmqjlo.top
 0.0.0.0 zzzjvqzkmqjyb.top
 
-185.199.110.154 github.githubassets.com
+185.199.108.154 github.githubassets.com
 140.82.113.22 central.github.com
-185.199.110.133 desktop.githubusercontent.com
-185.199.108.153 assets-cdn.github.com
-185.199.108.133 camo.githubusercontent.com
+185.199.111.133 desktop.githubusercontent.com
+185.199.109.153 assets-cdn.github.com
+185.199.111.133 camo.githubusercontent.com
 185.199.108.133 github.map.fastly.net
 151.101.1.194 github.global.ssl.fastly.net
-140.82.113.4 gist.github.com
-185.199.110.153 github.io
-140.82.113.4 github.com
-140.82.114.5 api.github.com
-185.199.111.133 raw.githubusercontent.com
-185.199.108.133 user-images.githubusercontent.com
+140.82.112.4 gist.github.com
+185.199.108.153 github.io
+140.82.112.4 github.com
+140.82.114.6 api.github.com
+185.199.110.133 raw.githubusercontent.com
+185.199.110.133 user-images.githubusercontent.com
 185.199.110.133 favicons.githubusercontent.com
 185.199.108.133 avatars5.githubusercontent.com
-185.199.109.133 avatars4.githubusercontent.com
-185.199.111.133 avatars3.githubusercontent.com
-185.199.109.133 avatars2.githubusercontent.com
-185.199.110.133 avatars1.githubusercontent.com
+185.199.110.133 avatars4.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.110.133 avatars2.githubusercontent.com
+185.199.108.133 avatars1.githubusercontent.com
 185.199.110.133 avatars0.githubusercontent.com
-185.199.108.133 avatars.githubusercontent.com
-140.82.114.10 codeload.github.com
-52.217.166.65 github-cloud.s3.amazonaws.com
-3.5.30.201 github-com.s3.amazonaws.com
-52.217.73.220 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.205.33 github-production-user-asset-6210df.s3.amazonaws.com
-52.217.234.49 github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.111.153 githubstatus.com
-140.82.113.17 github.community
-185.199.111.133 media.githubusercontent.com
-185.199.110.133 objects.githubusercontent.com
-185.199.108.133 raw.github.com
+185.199.110.133 avatars.githubusercontent.com
+140.82.112.10 codeload.github.com
+52.217.74.20 github-cloud.s3.amazonaws.com
+52.217.134.97 github-com.s3.amazonaws.com
+52.217.137.177 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.162.105 github-production-user-asset-6210df.s3.amazonaws.com
+3.5.29.191 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.153 githubstatus.com
+140.82.112.18 github.community
+185.199.108.133 media.githubusercontent.com
+185.199.111.133 objects.githubusercontent.com
+185.199.109.133 raw.github.com
 4.249.131.160 copilot-proxy.githubusercontent.com
 
 
