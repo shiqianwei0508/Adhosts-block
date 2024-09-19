@@ -1,11 +1,10 @@
-# 更新时间：2024-09-18 15:23:34
+# 更新时间：2024-09-19 15:23:28
 # hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts
 # 邮箱： sqwei2012@gmail.com
 # 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！
 
 
 0.0.0.0 0000.833enmhob.com
-0.0.0.0 0.0.0.0brightdata.de
 0.0.0.0 0006.4puuqeh41.com
 0.0.0.0 000bff278d.275a93755c.com
 0.0.0.0 000dn.com
@@ -457,7 +456,9 @@
 0.0.0.0 114la.com
 0.0.0.0 114park.com
 0.0.0.0 114so.cn
+0.0.0.0 1157433411.rsc.cdn77.org
 0.0.0.0 1.15lu.com
+0.0.0.0 1167965905.rsc.cdn77.org
 0.0.0.0 116b.com
 0.0.0.0 1171.cosmicnewspulse.com
 0.0.0.0 1182.5clo0xmbf.com
@@ -485,6 +486,7 @@
 0.0.0.0 1200.5clo0xmbf.com
 0.0.0.0 1.201980.com
 0.0.0.0 1202bb3601.29972123f3.com
+0.0.0.0 1205088249.rsc.cdn77.org
 0.0.0.0 1205qitiao2022.xyz
 0.0.0.0 1208344341.rsc.cdn77.org
 0.0.0.0 120askimages.com
@@ -707,6 +709,7 @@
 0.0.0.0 1835.url25fatm.com
 0.0.0.0 184c4i95p.de
 0.0.0.0 1853.5clo0xmbf.com
+0.0.0.0 1860610788.rsc.cdn77.org
 0.0.0.0 1861.34gwl8v1a.com
 0.0.0.0 18632413c4767affab8d2ad3f72b410e.rigipsa.pl
 0.0.0.0 1866741353.rsc.cdn77.org
@@ -14513,6 +14516,7 @@
 0.0.0.0 ag.gbc.criteo.com
 0.0.0.0 aggelakia.openapp.link
 0.0.0.0 aggestose.com
+0.0.0.0 agghriwaz.com
 0.0.0.0 aggjprvqamtl.com
 0.0.0.0 aggle.net
 0.0.0.0 agglomerationin.click
@@ -16417,6 +16421,7 @@
 0.0.0.0 analyticsapi.qogita.com
 0.0.0.0 analytics-api-samples.googlecode.com
 0.0.0.0 analytics-api.samsunghealthcn.com
+0.0.0.0 analytics-api.sconto.cz
 0.0.0.0 analytics-api.smzdm.com
 0.0.0.0 analytics-api.statvoo.com
 0.0.0.0 analytics-api.vanceai.com
@@ -18605,6 +18610,7 @@
 0.0.0.0 api.clickcease.com
 0.0.0.0 api.clientebradesco.click
 0.0.0.0 api.cloudmobi.net
+0.0.0.0 api.cmp.inmobi.com
 0.0.0.0 api-cn.store.heytapmobi.com
 0.0.0.0 api.coinerra.com
 0.0.0.0 api.collect.data.intl.miui.com
@@ -20263,6 +20269,7 @@
 0.0.0.0 app.ohiobobcats.com
 0.0.0.0 appoineditardwide.com
 0.0.0.0 appointedchildorchestra.com
+0.0.0.0 appointeeivyspongy.com
 0.0.0.0 appointments.covenanthealth.org
 0.0.0.0 appointments-online.com
 0.0.0.0 appointments.providence.org
@@ -20745,7 +20752,6 @@
 0.0.0.0 apromoweb.com
 0.0.0.0 apsalar.com
 0.0.0.0 apsatnlfylz.com
-0.0.0.0 apsehick.date
 0.0.0.0 aps.hearstnp.com
 0.0.0.0 ap.shouta.co
 0.0.0.0 apsidalmungoos.top
@@ -24445,6 +24451,7 @@
 0.0.0.0 beacon.affil.walmart.com
 0.0.0.0 beacon.aimtell.com
 0.0.0.0 beacon-api.aliyuncs.com
+0.0.0.0 beacon.apsehick.date
 0.0.0.0 beacon.carfax.com
 0.0.0.0 beacon.cdnma.com
 0.0.0.0 beacon.cdn.qq.com
@@ -28256,6 +28263,7 @@
 0.0.0.0 bxvirhgaq.com
 0.0.0.0 bxvlyrw.com
 0.0.0.0 bxwccii.cn
+0.0.0.0 bxxibvjt.com
 0.0.0.0 bxxvmjrpegqy.com
 0.0.0.0 bxzm9a.icu
 0.0.0.0 by8428.com
@@ -28656,6 +28664,7 @@
 0.0.0.0 c.admaster.com.cn
 0.0.0.0 c.admedia.com
 0.0.0.0 c.admob.com
+0.0.0.0 cadmus.script.ac
 0.0.0.0 cado888.com
 0.0.0.0 cadrctlnk.com
 0.0.0.0 c.adroll.com
@@ -30672,6 +30681,7 @@
 0.0.0.0 cdtxegwndfduk.xyz
 0.0.0.0 cdu.cc
 0.0.0.0 cduno.cn
+0.0.0.0 cdunwi.xyz
 0.0.0.0 cduygiph.com
 0.0.0.0 cdvsd9.com
 0.0.0.0 cdwbjlmpyqtv.com
@@ -33429,6 +33439,7 @@
 0.0.0.0 cmp.histoire-et-civilisations.com
 0.0.0.0 cmp.huffingtonpost.fr
 0.0.0.0 cmp.infopro-digital.com
+0.0.0.0 cmp.inmobi.com
 0.0.0.0 cmp.lavie.fr
 0.0.0.0 cmp.lemonde.fr
 0.0.0.0 cmp.lepoint.fr
@@ -34563,6 +34574,7 @@
 0.0.0.0 config.adview.cn
 0.0.0.0 config.a-mo.net
 0.0.0.0 config-api.internet.apps.samsung.com
+0.0.0.0 config.aps.amazon-adsystem.com
 0.0.0.0 config.eastus-ssp.appgwv2.inmobi.com
 0.0.0.0 config.emb-api.com
 0.0.0.0 config.getmyip.com
@@ -36147,6 +36159,7 @@
 0.0.0.0 crackcreateworld.com
 0.0.0.0 crackdb.info
 0.0.0.0 crackedcraft.org
+0.0.0.0 crackedpc.org
 0.0.0.0 crackedscripts.com
 0.0.0.0 cracked.sx
 0.0.0.0 crackedzone.org
@@ -37173,6 +37186,7 @@
 0.0.0.0 cteozuek9.com
 0.0.0.0 cteripre.com
 0.0.0.0 cthbini.xyz
+0.0.0.0 cthbkxcvksx.com
 0.0.0.0 c.thecounter.de
 0.0.0.0 c.themoneytizer.com
 0.0.0.0 cthisismoych.com
@@ -42001,6 +42015,7 @@
 0.0.0.0 decademical.com
 0.0.0.0 decadenceestate.com
 0.0.0.0 decalogsdeign.uno
+0.0.0.0 decatyldecane.com
 0.0.0.0 decaytreacherous.com
 0.0.0.0 decbusi.com
 0.0.0.0 deceittoured.com
@@ -45508,6 +45523,7 @@
 0.0.0.0 dsbt7.com
 0.0.0.0 dsbudkwq.xyz
 0.0.0.0 dsb.yahoo.co.jp
+0.0.0.0 dscds111.fun
 0.0.0.0 dsceopm.cn
 0.0.0.0 ds.contextweb.com
 0.0.0.0 d.scorecardresearch.com
@@ -49744,7 +49760,6 @@
 0.0.0.0 eval.privateapi.click
 0.0.0.0 evaluateuncanny.com
 0.0.0.0 evaluationfixedlygoat.com
-0.0.0.0 evangeliostore.com
 0.0.0.0 evania.adspirit.de
 0.0.0.0 ev.api.bdg.com
 0.0.0.0 evaporateahead.com
@@ -51349,7 +51364,6 @@
 0.0.0.0 faze4.com
 0.0.0.0 faze5.com
 0.0.0.0 faze71.com
-0.0.0.0 faze94.com
 0.0.0.0 faze9.com
 0.0.0.0 fazebet.com
 0.0.0.0 fazinghomelet.top
@@ -53736,6 +53750,7 @@
 0.0.0.0 fq03.shop
 0.0.0.0 fq04.shop
 0.0.0.0 fq05.shop
+0.0.0.0 fq06.shop
 0.0.0.0 fq9vy0muyqi3.www.madrigalmaps.com
 0.0.0.0 fqbjzj.xyz
 0.0.0.0 fqceyqo.com
@@ -56226,6 +56241,7 @@
 0.0.0.0 gesdxashb1.fun
 0.0.0.0 gesfdashb5.fun
 0.0.0.0 gessdashb6.fun
+0.0.0.0 gestatebuxomly.com
 0.0.0.0 gestiondocumentaire.ricoh.fr
 0.0.0.0 gesvfvfhhb6.fun
 0.0.0.0 get1000followers.com
@@ -59172,6 +59188,7 @@
 0.0.0.0 grh-analytics.com
 0.0.0.0 gribblefessing.com
 0.0.0.0 gribsastiw.com
+0.0.0.0 grid-bidder.criteo.com
 0.0.0.0 grid.bidswitch.net
 0.0.0.0 griddedwarling.top
 0.0.0.0 gridder.co
@@ -60913,6 +60930,7 @@
 0.0.0.0 hbxzlf.xyz
 0.0.0.0 hby7.destinia.it
 0.0.0.0 hb.yahoo.net
+0.0.0.0 hb.yellowblue.io
 0.0.0.0 hbzhenquan.cn
 0.0.0.0 hbzikbe.com
 0.0.0.0 hbzshoes.com
@@ -63224,6 +63242,7 @@
 0.0.0.0 hverdagskriger.dk
 0.0.0.0 hvikgqco.com
 0.0.0.0 hvlitr.xyz
+0.0.0.0 hvmmtuxtgaw.com
 0.0.0.0 hvmsmoiejaqb.com
 0.0.0.0 hvooyieoei.com
 0.0.0.0 hvpeme.petedge.com
@@ -63836,6 +63855,7 @@
 0.0.0.0 id5-sync.com
 0.0.0.0 id.ad.lgsmartad.com
 0.0.0.0 id.adsplay.net
+0.0.0.0 id.a-mx.com
 0.0.0.0 id.analytics.glance.inmobi.com
 0.0.0.0 idantglyoxim.top
 0.0.0.0 id.anthill.vn
@@ -69598,6 +69618,7 @@
 0.0.0.0 j.northbeam.io
 0.0.0.0 jnovoksjreeyrpm.xyz
 0.0.0.0 jnp0kmm.icu
+0.0.0.0 jnpwkazdss.com
 0.0.0.0 jnqkvgkm.com
 0.0.0.0 jnrgcwf.com
 0.0.0.0 jnrtavp2x66u.com
@@ -70576,6 +70597,7 @@
 0.0.0.0 jy05.shop
 0.0.0.0 jy06.shop
 0.0.0.0 jy07.shop
+0.0.0.0 jy08.shop
 0.0.0.0 jy147a.com
 0.0.0.0 jy.aomg5bzv7.com
 0.0.0.0 jy.astylararsines.com
@@ -75761,6 +75783,7 @@
 0.0.0.0 log.aispeech.com
 0.0.0.0 log.ajunews.com
 0.0.0.0 logall.doubleverify.com
+0.0.0.0 log-ana.h3z.jp
 0.0.0.0 logangmerch.us
 0.0.0.0 log.anninhthudo.vn
 0.0.0.0 log-anninhthudo.zadn.vn
@@ -85279,6 +85302,7 @@
 0.0.0.0 mplayeranyd.info
 0.0.0.0 mplaylist-ads.zadn.vn
 0.0.0.0 mplaylist-ads.zascdn.me
+0.0.0.0 mpljrzsdufq.com
 0.0.0.0 mploymehnthejuias.info
 0.0.0.0 m.pl.pornzone.tv
 0.0.0.0 mpn56e.cn
@@ -87041,7 +87065,6 @@
 0.0.0.0 navi4.com
 0.0.0.0 navi50.com
 0.0.0.0 navi53.com
-0.0.0.0 navi53.ru
 0.0.0.0 navi54.com
 0.0.0.0 navi56.com
 0.0.0.0 navi58.com
@@ -87059,6 +87082,7 @@
 0.0.0.0 navi86.ru
 0.0.0.0 navi88.com
 0.0.0.0 navi8.com
+0.0.0.0 navi95.ru
 0.0.0.0 navi99.com
 0.0.0.0 naviblue-team.com
 0.0.0.0 navigablepiercing.com
@@ -88247,6 +88271,7 @@
 0.0.0.0 nip44.com
 0.0.0.0 nip4.com
 0.0.0.0 nip57.com
+0.0.0.0 nip58.com
 0.0.0.0 nip5.com
 0.0.0.0 nip69.com
 0.0.0.0 nip89.com
@@ -88621,6 +88646,7 @@
 0.0.0.0 noodledbulky.top
 0.0.0.0 noodledesperately.com
 0.0.0.0 noodokod.xyz
+0.0.0.0 nooglaug.net
 0.0.0.0 noojoomo.com
 0.0.0.0 nookwiser.com
 0.0.0.0 nooloqfzdta.com
@@ -91869,6 +91895,7 @@
 0.0.0.0 opx.webtool.net
 0.0.0.0 opzksyy.cn
 0.0.0.0 oq6ry.com
+0.0.0.0 oqaejin.icu
 0.0.0.0 oqbbkv.promosejours.com
 0.0.0.0 oqbimz.aviasales.ru
 0.0.0.0 oqcgwyzuhn.com
@@ -94700,6 +94727,7 @@
 0.0.0.0 pcweb.v1.mgtv.com
 0.0.0.0 pc.wegowan.com
 0.0.0.0 pc.weizhenwx.com
+0.0.0.0 pcxnrd.xyz
 0.0.0.0 pcxzo.pluto.sogou.com
 0.0.0.0 pcykgc.onetravel.com
 0.0.0.0 pc.youbora.com
@@ -101361,6 +101389,7 @@
 0.0.0.0 q.ki47.com
 0.0.0.0 qkid.tentaklsistem.click
 0.0.0.0 qkikkg.xyz
+0.0.0.0 qkitery.top
 0.0.0.0 qkjjuhs.com
 0.0.0.0 qkodjvdsm.com
 0.0.0.0 qkqlqjjobvkr.top
@@ -101608,6 +101637,7 @@
 0.0.0.0 qrtrsucg.com
 0.0.0.0 qrttfmo.cn
 0.0.0.0 qrvsnt.citygrounds.com
+0.0.0.0 qrwcss.xyz
 0.0.0.0 qrwkkcyih.xyz
 0.0.0.0 qrwoaylvmbeyz.top
 0.0.0.0 qrxmgfz.cn
@@ -101921,6 +101951,7 @@
 0.0.0.0 quyerj.northstyle.com
 0.0.0.0 quzmtpxw.xyz
 0.0.0.0 quzpvtt.xyz
+0.0.0.0 quzwteqzaabm.com
 0.0.0.0 qvbxza.stoneberry.com
 0.0.0.0 qvenxs.cash-piscines.com
 0.0.0.0 qveyyi.clarivate.com
@@ -102470,6 +102501,7 @@
 0.0.0.0 raugovicoma.com
 0.0.0.0 raujouca.com
 0.0.0.0 raunooligais.net
+0.0.0.0 raupasee.xyz
 0.0.0.0 raupsica.net
 0.0.0.0 rausfml.com
 0.0.0.0 rauskins.com
@@ -106623,6 +106655,7 @@
 0.0.0.0 s3t3d2y8.afcdn.net
 0.0.0.0 s3.ttpsdk.info
 0.0.0.0 s3-us.servebom.com
+0.0.0.0 s3.vlitag.com
 0.0.0.0 s3vracbwe.com
 0.0.0.0 s3.xtremepush.com
 0.0.0.0 s400.mxcdn.net
@@ -110320,6 +110353,7 @@
 0.0.0.0 sfcv.chinavi-shop.jp
 0.0.0.0 sfdsplvyphk.com
 0.0.0.0 sfeedback.equa.cz
+0.0.0.0 sfesdef6.fun
 0.0.0.0 sffsdvc.com
 0.0.0.0 sffyrc.ruparupa.com
 0.0.0.0 sfg11rr.com
@@ -121853,6 +121887,7 @@
 0.0.0.0 surgicallonely.com
 0.0.0.0 surhaihaydn.com
 0.0.0.0 suriflowers.com
+0.0.0.0 suriquesyre.com
 0.0.0.0 suriwl.petsmart.com
 0.0.0.0 surlydancerbalanced.com
 0.0.0.0 surmitmegbote.top
@@ -124598,6 +124633,7 @@
 0.0.0.0 tesinformx.click
 0.0.0.0 tesknimywszyscy.click
 0.0.0.0 tesl3r.giveo4jlf.click
+0.0.0.0 tesla4eth.net
 0.0.0.0 teslaamg.obs.cn-east-3.myhuaweicloud.com
 0.0.0.0 tesla-coins.net
 0.0.0.0 teslafond.io
@@ -126036,6 +126072,7 @@
 0.0.0.0 tk.interflora.es
 0.0.0.0 tk.interflora.fr
 0.0.0.0 tk.interflora.it
+0.0.0.0 tkiteri.top
 0.0.0.0 tkjcqb.forrent.com
 0.0.0.0 tk.jeux.loro.ch
 0.0.0.0 tk.jim-joe.fr
@@ -133917,6 +133954,7 @@
 0.0.0.0 unm.emol.com
 0.0.0.0 unmightboxen.com
 0.0.0.0 unmisdreavusom.com
+0.0.0.0 unmownpirated.shop
 0.0.0.0 unnaturalcaption.com
 0.0.0.0 unnaturalstring.com
 0.0.0.0 unnecessarydispleasedleak.com
@@ -136129,6 +136167,7 @@
 0.0.0.0 via.ssl.holdmybeerconsulting.com
 0.0.0.0 viatechonline.com
 0.0.0.0 viatepigan.com
+0.0.0.0 vibanioa.com
 0.0.0.0 vibeaconstr.onezapp.com
 0.0.0.0 vibesquat.click
 0.0.0.0 vibetrogue.click
@@ -140207,6 +140246,7 @@
 0.0.0.0 w.lib2lib.click
 0.0.0.0 wljxga.bogsfootwear.ca
 0.0.0.0 wlkojk.orange.ro
+0.0.0.0 wlkukrv.icu
 0.0.0.0 wlmarathonbet.adsrv.eacdn.com
 0.0.0.0 wlmarketing.com
 0.0.0.0 wlmitgzbht.com
@@ -151502,39 +151542,39 @@
 0.0.0.0 zzzjvqzkmqjlo.top
 0.0.0.0 zzzjvqzkmqjyb.top
 
-185.199.111.154 github.githubassets.com
-140.82.114.21 central.github.com
-185.199.108.133 desktop.githubusercontent.com
+185.199.109.154 github.githubassets.com
+140.82.112.22 central.github.com
+185.199.111.133 desktop.githubusercontent.com
 185.199.110.153 assets-cdn.github.com
-185.199.109.133 camo.githubusercontent.com
-185.199.109.133 github.map.fastly.net
-151.101.65.194 github.global.ssl.fastly.net
-140.82.112.4 gist.github.com
-185.199.111.153 github.io
-140.82.113.3 github.com
-140.82.114.6 api.github.com
-185.199.108.133 raw.githubusercontent.com
-185.199.108.133 user-images.githubusercontent.com
+185.199.111.133 camo.githubusercontent.com
+185.199.108.133 github.map.fastly.net
+151.101.1.194 github.global.ssl.fastly.net
+140.82.116.3 gist.github.com
+185.199.109.153 github.io
+140.82.116.4 github.com
+140.82.116.6 api.github.com
+185.199.110.133 raw.githubusercontent.com
+185.199.109.133 user-images.githubusercontent.com
 185.199.108.133 favicons.githubusercontent.com
-185.199.109.133 avatars5.githubusercontent.com
-185.199.110.133 avatars4.githubusercontent.com
-185.199.111.133 avatars3.githubusercontent.com
-185.199.110.133 avatars2.githubusercontent.com
+185.199.110.133 avatars5.githubusercontent.com
+185.199.111.133 avatars4.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.111.133 avatars2.githubusercontent.com
 185.199.111.133 avatars1.githubusercontent.com
-185.199.108.133 avatars0.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
 185.199.108.133 avatars.githubusercontent.com
-140.82.113.10 codeload.github.com
-52.217.233.225 github-cloud.s3.amazonaws.com
-3.5.3.19 github-com.s3.amazonaws.com
-3.5.28.120 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.46.212 github-production-user-asset-6210df.s3.amazonaws.com
-52.217.193.145 github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.108.153 githubstatus.com
-140.82.112.17 github.community
-185.199.109.133 media.githubusercontent.com
-185.199.111.133 objects.githubusercontent.com
-185.199.109.133 raw.github.com
-4.249.131.160 copilot-proxy.githubusercontent.com
+140.82.116.9 codeload.github.com
+54.231.132.81 github-cloud.s3.amazonaws.com
+52.217.140.57 github-com.s3.amazonaws.com
+54.231.163.193 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.134.73 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.140.137 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.110.153 githubstatus.com
+140.82.114.18 github.community
+185.199.111.133 media.githubusercontent.com
+185.199.108.133 objects.githubusercontent.com
+185.199.111.133 raw.github.com
+138.91.182.224 copilot-proxy.githubusercontent.com
 
 
 
