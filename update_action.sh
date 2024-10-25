@@ -101,7 +101,7 @@ sed -i "s/\s\|#.*//g" $t
 # 删除 127.0.0.1 、 0.0.0.0 、 空行、第一行
 sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
 
-#curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
+curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
 curl -s https://bitbucket.org/hacamer/adrules/raw/main/mosdns_adrules.txt | sed 's/domain://' >> $t
 
 
