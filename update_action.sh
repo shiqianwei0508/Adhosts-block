@@ -1,176 +1,208 @@
 #!/usr/bin/env bash
 set -e
-#set -x
-# 下载去广告hosts合并并去重
+# set -x  # 调试时取消注释
 
-# 开启curl代理
-#mv ~/.curlrc.bak ~/.curlrc
-if [ ! -f ~/.curlrc ]; then
-    if [ -f ~/.curlrc.bak ]; then
-        mv ~/.curlrc.bak ~/.curlrc
-        echo "Renamed ~/.curlrc.bak to ~/.curlrc"
+# ============================================================
+# 去广告 hosts 合并脚本
+# 功能：下载多个去广告 hosts 源 -> 合并清洗去重 -> 套用白名单 -> 生成 hosts
+# 依赖：curl / sed / sort / dos2unix
+# 注意：需在项目根目录运行（脚本使用相对路径读取白名单与本地源）
+# ============================================================
+
+# ============================================================
+# 配置区（经常手动修改的项都放在这里）
+# ============================================================
+
+# 最终生成的标准 hosts 文件名（磁盘文件名，一般无需改动）
+output_hosts="hosts"
+
+# 本地白名单 / 加速源路径（相对项目根目录）
+allow_list_file="hosts_allow"          # 精确域名白名单
+wildcard_allow_file="hosts_allow_g"    # 泛域名白名单
+local_accel_file="sqwei/hosts_rewrite" # 本地域名加速源
+
+# 去广告 hosts 源（hosts 格式，一个 URL 一行，可自由增删）
+hosts_sources=(
+    "https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts"
+    "https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts"
+    "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/sha_ad_hosts"
+    "https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts"
+    "https://raw.githubusercontent.com/lingeringsound/10007/main/all"
+    "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts"
+    "https://gitlab.com/andryou/block/raw/master/chibi"
+)
+
+# 域名加速 hosts 源（追加到加速列表）
+accel_sources=(
+    "https://gitlab.com/ineo6/hosts/-/raw/master/hosts"
+    "https://raw.githubusercontent.com/yangFenTuoZi/fcm-hosts/refs/heads/master/hosts"
+)
+
+# 纯域名格式的去广告源（直接提取域名，无需清洗前缀）
+domain_sources=(
+    "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt"
+)
+# 纯域名源（需替换前缀，如 mosdns 的 "domain:" 前缀）
+domain_sources_sed=(
+    "https://bitbucket.org/hacamer/adrules/raw/main/mosdns_adrules.txt|s/domain://"
+)
+
+# 备用下载源（按需取消注释后复制到上面对应数组启用）
+# hosts 格式：
+#   https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
+#   https://hblock.molinero.dev/hosts
+#   https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
+#   https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+#   https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts
+#   https://hosts.ubuntu101.co.za/hosts
+#   https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+#   https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+#   https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+#   https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Regular%20Hosts.txt
+#   https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/hosts.txt
+#   https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
+
+# ============================================================
+# 临时文件名（语义化变量，磁盘文件名保持原值，一般无需改动）
+# ============================================================
+tmp_domains="host"           # 合并后的去广告域名临时文件
+accel_hosts="gh"             # 域名加速列表临时文件
+whitelist="wlist"            # 精确域名白名单（来自 hosts_allow）
+wildcard_whitelist="g_wlist" # 泛域名白名单（来自 hosts_allow_g）
+
+# ------------------------------------------------------------
+# curl 代理开关
+# ------------------------------------------------------------
+enable_curl_proxy() {
+    if [ ! -f ~/.curlrc ]; then
+        if [ -f ~/.curlrc.bak ]; then
+            mv ~/.curlrc.bak ~/.curlrc
+            echo "Renamed ~/.curlrc.bak to ~/.curlrc"
+        else
+            echo "No ~/.curlrc.bak file found"
+        fi
     else
-        echo "No ~/.curlrc.bak file found"
+        echo "File ~/.curlrc already exists"
     fi
-else
-    echo "File ~/.curlrc already exists"
-fi
-
-t=host       hn=hosts       an=adguard
-f=host-full  hf=hosts-full  af=adguard-full
-
-# 转换为 adguard 格式函数
-adguard() {
-  sed "1d;s/^/||/g;s/$/^/g" $1
 }
 
-# 去除误杀函数
-manslaughter(){
-  sed -i "/tencent\|c\.pc\|xmcdn\|googletagservices\|zhwnlapi\|samizdat/d" $1
+disable_curl_proxy() {
+    mv ~/.curlrc ~/.curlrc.bak
 }
 
-# 海阔影视 hosts 导入成功
-#curl -s https://gitee.com/qiusunshine233/hikerView/raw/master/ad_v1.txt > $t
-#sed -i 's/\&\&/\n/g' $t
-#curl -s https://gitee.com/qiusunshine233/hikerView/raw/master/ad_v2.txt >> $t
-#sed -i '/\(\/\|@\|\*\|^\.\|\:\)/d;s/^/127.0.0.1 /g' $t && echo "海阔影视 hosts 导入成功"
+# ------------------------------------------------------------
+# 下载单个 hosts 源并追加到目标文件
+# ------------------------------------------------------------
+fetch_source() {
+    local url="$1"
+    local target="$2"
+    if curl -s "$url" >> "$target"; then
+        echo "$url 下载成功"
+    else
+        echo "$url 下载失败"
+    fi
+}
 
+# ------------------------------------------------------------
+# 规范化列表文件：
+#   删除 # 注释行、压缩 2+ 空格为 1 空格、去除行尾空格
+#   用于白名单 / 本地加速源等“读取即清洗”的场景
+#   用法：normalize_list <源文件> <目标文件>（追加到目标）
+# ------------------------------------------------------------
+normalize_list() {
+    local src="$1"
+    local target="$2"
+    sed "/#/d;s/ \{2,\}/ /g;s/ *$//" "$src" >> "$target"
+}
 
-# 导入hosts格式
-while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
-https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts
-https://raw.githubusercontent.com/francis-zhao/quarklist/master/dist/hosts
-https://raw.githubusercontent.com/jdlingyu/ad-wars/master/sha_ad_hosts
-https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-https://raw.githubusercontent.com/lingeringsound/10007/main/all
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
-https://gitlab.com/andryou/block/raw/master/chibi
-EOF
-#https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt
-#https://hblock.molinero.dev/hosts
-#https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
-#https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
-#https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-social-only/hosts
-#https://hosts.ubuntu101.co.za/hosts
-#https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_host
-#https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
-#https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
-#https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-#https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Regular%20Hosts.txt
-#https://hblock.molinero.dev/hosts
-#https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/hosts.txt
-#https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
+# ------------------------------------------------------------
+# 删除文件中的空行（含纯空白行）
+#   用法：strip_blank_lines <文件>
+# ------------------------------------------------------------
+strip_blank_lines() {
+    sed -i "/^\s*$/d" "$1"
+}
 
+# ------------------------------------------------------------
+# 清洗域名列表：
+#   1) 只保留 127/0 开头的 hosts 行
+#   2) 删除空白符与 # 及其后内容
+#   3) 删除 127.0.0.1 / 0.0.0.0 前缀，得到纯域名
+# ------------------------------------------------------------
+clean_domains() {
+    sed -i -e "/^\s*\(127\|0\)/!d" \
+           -e "s/\s\|#.*//g" \
+           -e "s/^\(127.0.0.1\|0.0.0.0\)//g" "$1"
+}
 
+# ============================================================
+# 主流程
+# ============================================================
 
-# 域名加速hosts
-#curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
-curl -s https://gitlab.com/ineo6/hosts/-/raw/master/hosts | sed "/#/d;s/ \{2,\}/ /g" >> gh
-curl -s https://raw.githubusercontent.com/yangFenTuoZi/fcm-hosts/refs/heads/master/hosts | sed "/#/d;s/ \{2,\}/ /g" >> gh
-#curl -s https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/fasthosts.txt | sed "/#/d;s/ \{2,\}/ /g" > gh
-#curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
-cat sqwei/hosts_rewrite | sed "/#/d;s/ \{2,\}/ /g" >> gh
+# 1. 开启 curl 代理
+enable_curl_proxy
 
-
-# EnergizedProtection 域名白名单
-#curl -s https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt | sed "/#/d;s/ \{2,\}/ /g" > wlist
-
-# 自己维护的域名白名单
-#curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
-cat hosts_allow | sed "/#/d;s/ \{2,\}/ /g" >> wlist
-
-# keytoolazy
-#curl -s https://keytoolazy.coding.net/p/hms-core/d/HMS-CORE/git/raw/master/ads/allow.prop | sed "/#/d;s/ \{2,\}/ /g" >> wlist
-
-
-# 泛域名白名单
-#curl -s https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
-cat hosts_allow_g | sed "/#/d;s/ \{2,\}/ /g" >> g_wlist
-
-# 冷莫 hosts
-# curl -s https://file.trli.club/dns/ad-hosts.txt | sed "/==/d;/^$/d;1d;s/0.0.0.0 /127.0.0.1 /g;/^\:\|^\*/d" > $f
-# curl -s https://file.trli.club/dns/ad-domains.txt | sed "/^#/d" | awk '{print "127.0.0.1 "$0}' > $f
-
-# 转换换行符
-#dos2unix *
-#dos2unix */*
-
-# 保留必要 host
-# 只保留 127、0 开头的行
-sed -i "/^\s*\(127\|0\)/!d" $t
-# 删除空白符和 # 及后
-sed -i "s/\s\|#.*//g" $t
-# 删除 127.0.0.1 、 0.0.0.0 、 空行、第一行
-sed -i "s/^\(127.0.0.1\|0.0.0.0\)//g" $t
-
-curl -s https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt | sed "/#/d;s/ \{2,\}/ /g" >> $t
-curl -s https://bitbucket.org/hacamer/adrules/raw/main/mosdns_adrules.txt | sed 's/domain://' >> $t
-
-
-dos2unix $t gh wlist g_wlist
-# 导入domain list格式
-#while read i;do curl -s "$i">>$t&&echo "$i 下载成功"||echo "$i 下载失败";done<<EOF
-#https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
-#EOF
-
-#dos2unix $t
-
-sed -i "s/\s\|#.*//g" $t
-# 删除 . 或 * 或||开头的
-sed -i "/^\.\|^\*\|^|/d" $t
-
-# 使用声明
-statement="# 更新时间：$(date '+%Y-%m-%d %T')\n# hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts\n# 邮箱： sqwei2012@gmail.com\n# 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！\n\n"
-
-# 获得标准去重版 host
-sort -u $t -o $t
-sed -i "/^127.0.0.1$/d;/^0.0.0.0$/d;/^\s*$/d" $t
-
-# 去除误杀
-#manslaughter $t
-
-# 获得标准版 hosts
-#(echo -e $statement && sed "s/^/127.0.0.1 /g" $t && cat gh) > $hn
-(echo -e $statement && sed "s/^/0.0.0.0 /g" $t && cat gh) > $hn
-#(echo -e $statement && sed "s/^/127.0.0.1 /g" $t) > $hn
-
-# 配置域名白名单
-for i in `cat wlist`;do
-   sed -i "/0.0.0.0 $i$/d" $hn
+# 2. 下载去广告 hosts 源（hosts 格式）
+for url in "${hosts_sources[@]}"; do
+    fetch_source "$url" "$tmp_domains"
 done
 
-for i in `cat g_wlist`;do
-   sed -i "/0.0.0.0 .*.$i$/d" $hn
+# 3. 下载域名加速 hosts，并合并本地加速源
+for url in "${accel_sources[@]}"; do
+    fetch_source "$url" "$accel_hosts"
+done
+normalize_list "$local_accel_file" "$accel_hosts"
+
+# 4. 读取本地白名单（精确 / 泛域名）
+# 删注释行、压缩多空格、去除行尾空格（避免尾随空格导致白名单匹配失效）
+normalize_list "$allow_list_file" "$whitelist"
+normalize_list "$wildcard_allow_file" "$wildcard_whitelist"
+
+# 5. 清洗下载数据，提取纯域名
+clean_domains "$tmp_domains"
+
+# 6. 追加纯域名格式的去广告源
+for url in "${domain_sources[@]}"; do
+    fetch_source "$url" "$tmp_domains"
+done
+for entry in "${domain_sources_sed[@]}"; do
+    src_url="${entry%%|*}"
+    src_sed="${entry#*|}"
+    curl -s "$src_url" | sed "$src_sed" >> "$tmp_domains"
 done
 
+# 7. 统一换行符
+dos2unix "$tmp_domains" "$accel_hosts" "$whitelist" "$wildcard_whitelist"
 
-# 获得标准 adguard 版规则
-#adguard $t > $an
+# 8. 二次清洗：删除空白/# 及 . * | 开头的行
+sed -i -e "s/\s\|#.*//g" \
+       -e "/^\.\|^\*\|^|/d" "$tmp_domains"
 
+# 9. 组装文件头并去重
+file_header="# 更新时间：$(date '+%Y-%m-%d %T')\n# hosts获取：https://gitlab.com/rainmor/Adhosts-block/-/raw/master/hosts\n# 邮箱： sqwei2012@gmail.com\n# 如果存在误杀情况，请通过邮件把被误杀的APP或者域名发给我，谢谢！\n\n"
 
-# 获得拓展去重版 host
-# cat $t $f | sort -u -o $f
-# sed -i "/^127.0.0.1$/d;/^0.0.0.0$/d;/^\s*$/d" $f
-# manslaughter $f
-# 删除 . 或 * 开头的
-# sed -i "/^\.\|^\*/d" $f
+sort -u "$tmp_domains" -o "$tmp_domains"
+sed -i -e "/^127.0.0.1$/d" \
+       -e "/^0.0.0.0$/d" "$tmp_domains"
+strip_blank_lines "$tmp_domains"
 
-# 获得拓展版 hosts
-# (echo -e $statement && sed "s/^/127.0.0.1 /g" $f && cat gh) > $hf
-# (echo -e $statement && sed "s/^/127.0.0.1 /g" $f) > $hf
+# 10. 生成标准 hosts：文件头 + 域名列表 + 加速 hosts
+# 加速 hosts 直接 cat 拼接，需先清除空行，避免泄漏到最终文件
+strip_blank_lines "$accel_hosts"
+(echo -e "$file_header" && sed "s/^/0.0.0.0 /g" "$tmp_domains" && cat "$accel_hosts") > "$output_hosts"
 
-# 清洗 127.0.0.1 127.0.0.1
-# sed -i 's+127.0.0.1 127.0.0.1 +127.0.0.1 +g' $hf
-# cat $hf | sort -u -o $hf
+# 11. 应用精确白名单：删除 0.0.0.0 <domain> 行
+while read -r domain; do
+    [ -n "$domain" ] || continue
+    sed -i "/0.0.0.0 ${domain}$/d" "$output_hosts"
+done < "$whitelist"
 
-# 获得拓展 adguard 版规则
-# adguard $f > $af
+# 12. 应用泛域名白名单：删除 0.0.0.0 <任意前缀>.<domain> 行
+while read -r domain; do
+    [ -n "$domain" ] || continue
+    sed -i "/0.0.0.0 .*.${domain}$/d" "$output_hosts"
+done < "$wildcard_whitelist"
 
-
-#rm $t $f gh
-#rm $t $f
-rm $t gh wlist g_wlist
-#rm $t gh
-
-# 关闭curl代理
-mv ~/.curlrc ~/.curlrc.bak
+# 13. 清理临时文件并关闭 curl 代理
+rm -f "$tmp_domains" "$accel_hosts" "$whitelist" "$wildcard_whitelist"
+disable_curl_proxy
