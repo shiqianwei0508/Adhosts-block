@@ -4,7 +4,7 @@
 #
 # 设计目标：
 #   1) 运行 update_action.sh 重新生成最新的 hosts（不保存旧的那份）
-#   2) 用 git filter-repo 把历史里所有的 hosts 旧版本彻底抹掉
+#   2) 用 git filter-branch 把历史里所有的 hosts 旧版本彻底抹掉
 #   3) 仅把这份最新生成的 hosts 作为“唯一一份”提交进仓库
 #   4) force push 覆盖远程，使远程历史同样只保留一份 hosts
 #
@@ -13,7 +13,7 @@
 #   - 本脚本会重写 git 历史（所有提交 hash 改变），并 force push。
 #   - 其他所有代码/配置（update_action.sh、hosts_allow、sqwei/、docs 等）
 #     的历史完好保留，不受影响。
-#   - 需先安装 git-filter-repo（https://github.com/newren/git-filter-repo）。
+#   - 使用 git 自带的 filter-branch（兼容 Git 2.30，无需额外安装 filter-repo）。
 # ============================================================
 set -e
 
@@ -33,8 +33,8 @@ if ! git remote get-url "$REMOTE" >/dev/null 2>&1; then
     echo "错误：未找到远程 '$REMOTE'" >&2
     exit 1
 fi
-if ! git config --get-regexp '^filter\.repo\.' >/dev/null 2>&1 && ! command -v git-filter-repo >/dev/null 2>&1 && ! git filter-repo --help >/dev/null 2>&1; then
-    echo "错误：未找到 git filter-repo，请先安装（见 https://github.com/newren/git-filter-repo）" >&2
+if ! git filter-branch --help >/dev/null 2>&1; then
+    echo "错误：当前 git 不支持 filter-branch（需 Git 2.30+ 自带）" >&2
     exit 1
 fi
 
@@ -50,8 +50,16 @@ if [ ! -f "$HOSTS_FILE" ]; then
     exit 1
 fi
 
-echo "==> [3/5] 用 git filter-repo 清除历史中所有的 hosts 旧版本"
-git filter-repo --force --path "$HOSTS_FILE" --invert-paths
+echo "==> [3/5] 用 git filter-branch 清除历史中所有的 hosts 旧版本"
+# 从每一个历史提交的索引中删除 hosts；--prune-empty 去掉因此变空的提交
+git filter-branch --force --index-filter \
+    "git rm --cached --ignore-unmatch '$HOSTS_FILE'" \
+    --prune-empty -- --all
+# 清理 filter-branch 遗留的备份引用与悬空对象，确保历史真正干净
+git for-each-ref --format='%(refname)' refs/original/ | \
+    while read -r ref; do git update-ref -d "$ref"; done
+git reflog expire --expire=now --all
+git gc --prune=now
 
 echo "==> [4/5] 仅提交最新一份 hosts（历史中只此一份）"
 git add "$HOSTS_FILE"
