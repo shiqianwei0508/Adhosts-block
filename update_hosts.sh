@@ -76,6 +76,8 @@ git branch -m "$HOSTS_BRANCH"
 echo "==> [5/5] force push to $HOSTS_BRANCH"
 git push --force "$REMOTE" "$HOSTS_BRANCH"
 
+# 切换回master分支
+git checkout master
 echo ""
 echo "✅ 完成："
 echo "  - master 分支历史未动"
