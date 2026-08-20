@@ -34,3 +34,5 @@ Cats-Team | https://github.com/Cats-Team/AdRules
 ~adblock-nocoin-list~ | ~https://github.com/hoshsadiq/adblock-nocoin-list~
 ~hBlock~ | ~https://hblock.molinero.dev/hosts~
 10007 | https://github.com/lingeringsound/10007
+fcm-hosts | https://github.com/yangFenTuoZi/fcm-hosts
+ineo6 hosts | https://github.com/ineo6/hosts
